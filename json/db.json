@@ -609,7 +609,6 @@
             "productDes": "Made of Power - Pushing through up to 60W of power, PQI iCable can deliver full capacity of the energy. Upgrade your charging efficiency. Designed to Last - Reinforced with Nylon as outer braid and solid aluminum material in the core, this cable can take 10,000 times of bending. Proved by Apple - PQI iCable is MFi approved, which is the lightning cable has Certified by Apple."
         }
 
-
     ],
     "charger": [
         {
@@ -1013,6 +1012,66 @@
             "productPrice": 110000,
             "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Others%2FCute%20Animal.jpg?alt=media&token=dcc2c5a1-8cb5-4ea6-9bd5-3bcf96d18a06",
             "productDes": "The cable protector was designed with highly flexible silicone, which can be applied as phone charger saver and charger protector to completely protect cables for all devices such as cell phones, computers, laptops, mouse cable, etc."
+        },
+        {
+            "productName": "Ariel Stickermania",
+            "productPrice": 150000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FAriel%20Stickermania.jpg?alt=media&token=2764cf8c-c901-4cd0-a208-59445a7d5349",
+            "productDes": "Ariel Stickermania is lightweight, compact and easy to hold, this environmentally friendly case has a non-slip grip and ultra-slim, self-healing profile. "
+        },
+        {
+            "productName": "Breakfast",
+            "productPrice": 180000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FBreakfast.jpg?alt=media&token=863e06bb-3f4c-4798-a710-4607035a574f",
+            "productDes": "Breakfast is the ideal product if you are looking for a mixture of protection and convenience. It comes with a rotating case, a built-in stand, and an internal hard case that will safeguard your device against impacts and damage such as accidental drops."
+        },
+        {
+            "productName": "Lost Airpods",
+            "productPrice": 130000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FLost%20Airpods.jpg?alt=media&token=893fadc7-fd42-4da7-8199-f6f0efa8d8b4",
+            "productDes": "This adorable case add some cuteness and nostalgia to your AirPods, while also protecting them from dust and drops. Coat your pods in a silicone casing."
+        },
+        {
+            "productName": "Positivity Pack",
+            "productPrice": 300000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FPositivity%20Pack.jpg?alt=media&token=dee9af1a-b54c-4c17-9398-210a39642a5d",
+            "productDes": "Positivity Pack case creates a barrier that will help you prevent marks of scratches, knocks, and fingerprints on your precious device, without adding any bulk. Thanks to precise openings, you’ll still have easy access to all essential ports and will be able to use your laptop as usual."
+        },
+        {
+            "productName": "TALK WORKS Cable",
+            "productPrice": 270000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FTALK%20WORKS%20Cable.jpg?alt=media&token=471e4b01-a7ac-4284-9ff6-6c81dc83beca",
+            "productDes": "Extra long charging cable features an extended 10ft length for the convenience to use at a distance from your power source while the durable reinforced covering offers extra strength and support"
+        },
+        {
+            "productName": "Apple MagSafe Charger",
+            "productPrice": 900000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FApple%20MagSafe%20Charger.jpg?alt=media&token=4d8ef12a-e9b5-4f00-a95f-ab6cba774c34",
+            "productDes": "The MagSafe Charger makes wireless charging a snap. The perfectly aligned magnets attach to your AirPods or iPhone. The MagSafe Charger maintains compatibility with Qi charging, so it can be used to wirelessly charge your iPhone 8 or later, as well as AirPods models with a wireless charging case, as you would with any Qi-certified charger."
+        },
+        {
+            "productName": "Mophie Power Bank",
+            "productPrice": 1500000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FMophie%20Power%20Bank.jpg?alt=media&token=8318a7e3-6384-4ce1-8fe4-435c1e8d3526",
+            "productDes": "Up To 4.6 Full Phone Charges - High capacity portable power bank containing a 20,000mAh battery. 18W USB-C PD Output- Charge your phone at the fastest speed possible with the USB-C’s 18W output and get up to 50% battery in just 30 minutes."
+        },
+        {
+            "productName": "Mama Bear",
+            "productPrice": 200000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Others%2FMama%20Bear.jpg?alt=media&token=bbd77fd2-f8bd-4e20-a712-189687d5bad2",
+            "productDes": "PopGrip with swappable top: switch out your PopTop for another design or remove it completely for wireless charging capabilities. Offers a secure grip so you can text with one hand, snap better photos, and watch videos hands-free"
+        },
+        {
+            "productName": "Airline tags",
+            "productPrice": 110000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FAirline%20tags.jpg?alt=media&token=37eb6e7e-0c32-4190-9dde-0926d4ddd63b",
+            "productDes": "Airline tags is  lightweight, compact and easy to hold, this environmentally friendly case has a non-slip grip and ultra-slim, self-healing profile. "
+        },
+        {
+            "productName": "CACTI",
+            "productPrice": 120000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FCACTI.jpg?alt=media&token=6117996c-e45a-403e-b82a-2f1ab8c09c8a",
+            "productDes": "CACTI protects your AirPods with impact-resistant Wireless charging compatible, the lightweight case features exclusive camo artwork and comes with a handy carabiner for anyone on the go."
         }
     ],
     "bestseller": [
@@ -1051,6 +1110,66 @@
             "productPrice": 150000,
             "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Others%2FWild%20Blooms.jpg?alt=media&token=b306149c-bf69-43a6-a74f-81c16bd6c314",
             "productDes": "PopGrip with swappable top; switch out your PopTop for another design or remove it completely for wireless charging capabilities. Offers a secure grip so you can text with one hand, snap better photos, and watch videos hands-free"
+        },
+        {
+            "productName": "River",
+            "productPrice": 290000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FRiver.jpg?alt=media&token=0a956a12-d8f6-41e3-a3dd-5b7e069d88fd",
+            "productDes": "River is made of fine leather, protects your iPad screen. It automatically wakes your iPad when opened and puts it to sleep when closed. "
+        },
+        {
+            "productName": "STICKERFEST",
+            "productPrice": 340000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FSTICKERFEST.jpg?alt=media&token=12d4c1c7-0458-4bbb-a8c9-9ee7e37981cf",
+            "productDes": "STICKERFEST is printed with UV Japan. High quality case will protection your device from scratches and abrasion. Design with ventilation holes at the bottom piece part of the cover, and also with four raised taps."
+        },
+        {
+            "productName": "KEYMOX Wireless Charger",
+            "productPrice": 300000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FKEYMOX%20Wireless%20Charger.jpg?alt=media&token=baba8776-0084-4fd6-8475-b34c7c441abb",
+            "productDes": "Wireless Charger Modes: providing 10W high-speed charging for Samsung Galaxy, a 7.5W charging mode to charge iPhones and 5W standard charge mode for other Qi-enabled devices. Ideal Charger for AirPods wireless charge: It is compatible with AirPods (with wireless charging case) and AirPods Pro."
+        },
+        {
+            "productName": "Anker Power Bank",
+            "productPrice": 690000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FAnker%20Power%20Bank.jpg?alt=media&token=78b2b4c7-3ad1-4478-a5ec-c363064777af",
+            "productDes": "This power bank is compact as your average mobile phone, which will fit in most pockets nicely. The smart LCD are pretty accurate to show the status of battery charge left."
+        },
+        {
+            "productName": "Dog Park",
+            "productPrice": 280000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FDog%20Park.jpg?alt=media&token=d5294dca-d837-40de-a40e-770b9fd46086",
+            "productDes": "Dog Park is printed with UV Japan. High quality case will protection your device from scratches and abrasion. Design with ventilation holes at the bottom piece part of the cover, and also with four raised taps."
+        },
+        {
+            "productName": "Aioneus iPhone Charger",
+            "productPrice": 207000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FAioneus%20iPhone%20Charger.jpg?alt=media&token=35fcbf65-ed8f-4230-8e77-2cb064f40636",
+            "productDes": "This iphone charging cable supports charging and data transmission. The high-quality tinned copper wire provides stable and fast charging. The upgraded chip enables the transmission speed to reach 480 Mbits. 1 Foot length brings you more convenience. For example, use mobile power to charge, connect to computer and travel. Avoid tangles and facilitate storage.Perfect replacements for your original lightning cable with superior performance."
+        },
+        {
+            "productName": "Amcrest Power Bank",
+            "productPrice": 870000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FAmcrest%20Power%20Bank.jpg?alt=media&token=a3c5a1d5-b0df-4154-9e27-4c086b03561b",
+            "productDes": "This USB C power bank features an incredible 26800 mAh cell capacity that provides 7.5 charges for iPhone 12, 5 charges for Galaxy Note 20, 6.5 charges for Samsung S9+, and 8 charges for iPhone X, utilizing the latest USB-C industry leading charging standard, giving you power when you need it."
+        },
+        {
+            "productName": "Blue cow",
+            "productPrice": 130000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2Fblue%20cow.jpg?alt=media&token=648c5456-4e34-41af-824f-7f16424781df",
+            "productDes": "Blue cow protect your iPhone. This case is made a unique formula which helps your device to stay clean. "
+        },
+        {
+            "productName": "Cute Bulldogs",
+            "productPrice": 310000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FCute%20Bulldogs.jpg?alt=media&token=a4397394-6a8c-4efe-afe7-6f4a4ffc171d",
+            "productDes": "Cute Bulldogs is made of non-toxic and tasteless PC raw materials - Gives your MacBook a Soft Touch. Prevents Fingerprints, Slipping, Scratches, Drops, Dirt, Smudges and Other Damages to your valuable MacBook."
+        },
+        {
+            "productName": "under the sea",
+            "productPrice": 160000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2Funder%20the%20sea.jpg?alt=media&token=23fd280c-1e85-4a42-8ff5-03caa5479b39",
+            "productDes": "Under the sea is made of ethical and animal-free materials. Slim fit to perfectly adhere to your AirPods Case."
         }
     ],
     "salesoff": [
@@ -1089,6 +1208,66 @@
             "productPrice": 210000,
             "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Others%2FWhite%20Gold.jpg?alt=media&token=7224dc3a-9ee8-41af-b69c-3c3f863b0a3a",
             "productDes": "The cell phone ring holder uses the good ductility zinc alloy and sturdy stainless steel, which are durable and prevents it from fading away. The edges of the ring grip are carefully polished to protect your fingers. The metal plate is a perfect match for a magnetic car mount."
+        },
+        {
+            "productName": "Spring Botanicals",
+            "productPrice": 110000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FSpring%20Botanicals.jpg?alt=media&token=2576ac86-74db-4168-a5fa-7744ad0aaf73",
+            "productDes": "You don’t have to choose between a protective case and a stylish one. Spring Botanicals is the slim and protective case that inspires your style. "
+        },
+        {
+            "productName": "Sushi Pugs",
+            "productPrice": 260000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FSushi%20Pugs.jpg?alt=media&token=9852638f-db19-41b4-8169-696ef3c5c30e",
+            "productDes": "Sushi Pugs is thin and light and offers protection for the front of your device, you can easily fold it into different positions to create a stand for reading, viewing, typing, or making FaceTime calls."
+        },
+        {
+            "productName": "Yellow Guy",
+            "productPrice": 180000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FYellow%20Guy.jpg?alt=media&token=34fc8ef4-8a51-435b-bce6-950513404d95",
+            "productDes": "Fashion protective shell perfect fits, Yellow Guy will protect your Airpods cute waterproof, shockproof, anti-dust and against scratches. All round protection against bumps, drops and shock absorption."
+        },
+        {
+            "productName": "Positivity Pack",
+            "productPrice": 300000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FPositivity%20Pack.jpg?alt=media&token=dee9af1a-b54c-4c17-9398-210a39642a5d",
+            "productDes": "Positivity Pack case creates a barrier that will help you prevent marks of scratches, knocks, and fingerprints on your precious device, without adding any bulk. Thanks to precise openings, you’ll still have easy access to all essential ports and will be able to use your laptop as usual."
+        },
+        {
+            "productName": "Type C Apple MLL82",
+            "productPrice": 621000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FType%20C%20Apple%20MLL82.jpg?alt=media&token=db3f1afb-41ac-48b9-b3bd-f0ac02d3704b",
+            "productDes": "Built-in 2 Type-C ports at the same time, for charging or data transmission. Charging current with a maximum capacity of 96 W fully charges the battery quickly. The cord is 2m long , convenient to use. Compatible with the following iPad and Macbook devices: iPad, MacBook, Mac Mini,..."
+        },
+        {
+            "productName": "KELBRIA Wireless Charger",
+            "productPrice": 300000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FKELBRIA%20Wireless%20Charger.jpg?alt=media&token=49c3cbb6-46ce-4d1c-aee7-9f8dfec47980",
+            "productDes": "Wireless Charger Modes: providing 10W high-speed charging for Samsung Galaxy, a 7.5W charging mode to charge iPhones and 5W standard charge mode for other Qi-enabled devices. Ideal Charger for AirPods wireless charge: It is compatible with AirPods (with wireless charging case) and AirPods Pro."
+        },
+        {
+            "productName": "ABOE Power Bank",
+            "productPrice": 1200000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FABOE%20Power%20Bank.jpg?alt=media&token=9daf76fa-43a2-4de5-aae6-3a72f7a55e3a",
+            "productDes": "Wirless portable charger supports 5W, 7.5W, and 10W MAX wireless fast charging, No cables required, Compatible with most wireless charging devices , and can also be wireless fast charging with a case.[Within 3mm thickness]"
+        },
+        {
+            "productName": "Alien Gloss",
+            "productPrice": 210000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Others%2FAlien%20Gloss.jpg?alt=media&token=5ed52501-ac14-4df3-98bd-114552270d22",
+            "productDes": "Offers a secure grip so you can text with one hand, snap better photos, and stop phone drops. Functions as a convenient stand so you can watch videos on the fly. Allows for hands-free use with the PopSockets mount. Available in a broad range of styles and materials."
+        },
+        {
+            "productName": "PISEN Wall Charger",
+            "productPrice": 350000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FPISEN%20Wall%20Charger.jpg?alt=media&token=14eb7338-fcf7-4913-b3cf-c36f7e226a8c",
+            "productDes": "20W PD 3.0 Fast Wall Charger: PISEN fast charger equipped with PD 3.0 technology can provide a maximum of 20W output power to charge your device. The speed is 3X faster than the original 5W charger, and it only takes 30 minutes to charge the iPhone 12 up to 57%, saving you more than 1.5 hours."
+        },
+        {
+            "productName": "Footprints",
+            "productPrice": 280000,
+            "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FFootprints.jpg?alt=media&token=d9aa0a29-549f-4632-a12c-a7459036b69b",
+            "productDes": "Footprints is printed with UV Japan. High quality case will protection your device from scratches and abrasion. Design with ventilation holes at the bottom piece part of the cover, and also with four raised taps."
         }
     ]
 }

@@ -89,7 +89,7 @@
             }
             function Login(){
                 var email=document.getElementById("email").value;
-            var password=document.getElementById("pwd").value;
+                var password=document.getElementById("pwd").value;
                 if(email === "" || password === ""){
                     alert("Failed!");
                 }else
@@ -135,6 +135,7 @@
             });
         </script> -->
         <script>
+            //Load dữ liệu từ file json
             var xmlHttp = new XMLHttpRequest();
             var url = "/json/searchdb.json";
             let myArr;
@@ -145,6 +146,7 @@
             }
             xmlHttp.open("GET", url, true);
             xmlHttp.send();
+
             //Công cụ tìm kiếm:
             function selectElement(selector){
             return document.querySelector(selector);
@@ -170,14 +172,14 @@
                 }
             }
             }
-        selectElement('.searchbar').addEventListener('keyup',getResults);
+            selectElement('.searchbar').addEventListener('keyup',getResults);
 
-                //Sự kiện bấm vào sản phẩm ra chi tiết sp
-        function detail(i) {
+            //Sự kiện bấm vào sản phẩm ra chi tiết sp
+            function detail(i) {
             var sp = myArr[i];
             localStorage.setItem("data", JSON.stringify(sp));
             location.href = "/src/chitietsp.html";
-        }
+            }
         </script>
     </header>
 </body>

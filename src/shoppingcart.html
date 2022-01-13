@@ -8,6 +8,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
     </script>
 
+    <!-- Thư viện của Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
     <!-- File css -->
     <link href="/css/shopcart.css" rel="stylesheet">
 </head>
@@ -23,6 +26,7 @@
                     <div class="title-type">Type</div>
                     <div class="title-amount">Amount</div>
                     <div class="title-price">Price</div>
+                    <div class="title-button"></div>
                 </div>
                 <div class="product-container" id="cart">
                     <!-- <div class="cart-product">
@@ -39,6 +43,9 @@
                         <div class="product-price">
                             <div>$50.00</div>
                         </div>
+                        <div class="product-btn">
+                            <button onclick="RemoveItem('${element.productName}')"><i class="fas fa-times"></i></button>
+                        </div>
                     </div> -->
                 </div>
 
@@ -46,13 +53,13 @@
             <div class="cartcontainer-item2">
                 <div class="orderdetails">Summary<hr></div>
                 <div class="subtotal">Sub total:</div>
-                <div class="subtotalnum">$50.00</div>
+                <div id="subtotalnum" class="subtotalnum">0</div>
                 <div class="shipcost">Shipping cost:</div>
                 <div class="shipcostnum">Free</div>
                 <div class="promocode">Add promocode</div>
                 <div class="promocodenum">BF14</div>
                 <div class="total"><hr>Total</div>
-                <div id="totalnum" class="totalnum"><hr></div>
+                <div id="totalnum" class="totalnum"><hr>0</div>
                 <div class="check-cont">
                     <button type="button" class="checkout"><a href="/src/shipinfo.html" >CHECK OUT</a></button>
                     <button type="button" class="continueshop"><a href="/index.html">CONTINUE SHOPPING</a></button>
@@ -87,7 +94,9 @@
                             ${element.amount * element.productPrice}
                     </div>
                 </div>
-                <button onclick="RemoveItem('${element.productName}')">Xóa</button>
+                <div class="product-btn">
+                    <button onclick="RemoveItem('${element.productName}')"><i class="fas fa-times"></i></button>
+                </div>
             </div>
             `
             cart = document.querySelector("#cart");
@@ -122,20 +131,13 @@
                 console.log(total)
             }
             document.getElementById('totalnum').innerText=total
+            document.getElementById('subtotalnum').innerText=total
         }
 
         function RemoveItem(productName){
             var carts=JSON.parse(localStorage.getItem('cart'));
             var selectedItem=carts.findIndex(item => item.productName === productName)
             carts.splice(selectedItem,1);
-            // if(carts.findIndex(element=> element.productName === productName )!==-1)
-            // {
-            //     return
-            // }
-            // else
-            // {
-            //     carts.delete(selectedItem);
-            // }
             localStorage.setItem('cart',JSON.stringify(carts));
         }
         // show it
