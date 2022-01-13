@@ -151,12 +151,12 @@
         var i;
         var url = "/json/db.json";
         let myArr;
-        xmlHttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
+        xmlHttp.onload = function() {
+            // if (this.readyState == 4 && this.status == 200) {
                 // var myArr = JSON.parse(this.responseText);
                 myArr = JSON.parse(this.responseText);
                 loadData(myArr.iphonecase);
-            }
+            // }
         }
         xmlHttp.open("GET", url, true);
         xmlHttp.send();
