@@ -1,0 +1,842 @@
+[
+    {
+        "productName": "Baby Bear",
+        "productPrice": 120000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FBaby%20Bear.jpg?alt=media&token=da618af3-9162-4d4d-8a28-92d2725997dd",
+        "productDes": "Baby Bear case offers the silky, soft-touch finish of the silicone exterior feels great in your hand. And on the inside, there’s a soft microfiber lining for even more protection."
+    },
+    {
+        "productName": "Spring Botanicals",
+        "productPrice": 110000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FSpring%20Botanicals.jpg?alt=media&token=2576ac86-74db-4168-a5fa-7744ad0aaf73",
+        "productDes": "You don’t have to choose between a protective case and a stylish one. Spring Botanicals is the slim and protective case that inspires your style. "
+    },
+    {
+        "productName": "Bearly Awake",
+        "productPrice": 140000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FBearly%20Awake.jpg?alt=media&token=746e2a24-1fce-475f-9339-6903b1f581b9",
+        "productDes": "Bearly Awake is slimmer than ever, as protective as always.. Which is great because with all of the colors, patterns and clear options, you need more than just one. "
+    },
+    {
+        "productName": "Ariel Stickermania",
+        "productPrice": 150000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FAriel%20Stickermania.jpg?alt=media&token=2764cf8c-c901-4cd0-a208-59445a7d5349",
+        "productDes": "Ariel Stickermania is lightweight, compact and easy to hold, this environmentally friendly case has a non-slip grip and ultra-slim, self-healing profile. "
+    },
+    {
+        "productName": "CORAL REEF",
+        "productPrice": 110000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FCORAL%20REEF.jpg?alt=media&token=b9de2d4d-5e67-4bb1-9b76-c960cc69edff",
+        "productDes": "CORAL REEF with a blend of optically clear polycarbonate and flexible materials, the case fits with our hand to hold. And all materials and coatings are optimized to prevent yellowing over time. "
+    },
+    {
+        "productName": "Wavy Grid",
+        "productPrice": 130000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FWavy%20Grid.jpg?alt=media&token=ede52e18-9ffb-4252-8950-0e1229f6b73c",
+        "productDes": "Wavy Grid made from 100% recycled cases and materials, our case reflects our commitment towards protecting your tech and the environment. . "
+    },
+    {
+        "productName": "Pastel Flowers",
+        "productPrice": 100000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FPastel%20Flowers.jpg?alt=media&token=0e0d663c-0dcd-4404-98a1-5e248af44d11",
+        "productDes": "Pastel Flowers protect your iPhone. This case is made a unique formula which helps your device to stay clean. "
+    },
+    {
+        "productName": "Busy Doing Nothing",
+        "productPrice": 160000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FBusy%20Doing%20Nothing.jpg?alt=media&token=6f214f95-fe17-4de8-85f0-13950f106df1",
+        "productDes": "Busy Doing Nothing features a stylish pattern and interchangeable buttons, enabling you to mix up the colours of your device. "
+    },
+    {
+        "productName": "Good Vibe Stickers",
+        "productPrice": 120000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FGood%20Vibe%20Stickers.jpg?alt=media&token=493680f7-4152-42e7-b93d-b7fbe40c269f",
+        "productDes": "Good Vibe Stickers is made from 100% biodegradable materials that leave no microplastics or toxic residue in the environment. This slim and lightweight case has been designed to protect every element – inside and out. "
+    },
+    {
+        "productName": "STICKER FEST",
+        "productPrice": 180000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FSTICKER%20FEST.jpg?alt=media&token=e2eafbe8-29e3-4044-8e76-9f75715a3fd6",
+        "productDes": "STICKER FEST is made of polycarbonate, the same material that’s used in bulletproof glass, so it will keep your device safe and sound. "
+    },
+    {
+        "productName": "Blue cow",
+        "productPrice": 130000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2Fblue%20cow.jpg?alt=media&token=648c5456-4e34-41af-824f-7f16424781df",
+        "productDes": "Blue cow protect your iPhone. This case is made a unique formula which helps your device to stay clean. "
+    },
+    {
+        "productName": "Arson Banana",
+        "productPrice": 150000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FArson%20Banana.jpg?alt=media&token=587a7bb3-18eb-4f1c-ab1e-1f4bdb0ab904",
+        "productDes": "You don’t have to choose between a protective case and a stylish one. Arson Banana is the slim and protective case that inspires your style. "
+    },
+    {
+        "productName": "Airline tags",
+        "productPrice": 110000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FAirline%20tags.jpg?alt=media&token=37eb6e7e-0c32-4190-9dde-0926d4ddd63b",
+        "productDes": "Airline tags is  lightweight, compact and easy to hold, this environmentally friendly case has a non-slip grip and ultra-slim, self-healing profile. "
+    },
+    {
+        "productName": "FRUIT STICKERS",
+        "productPrice": 130000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FFRUIT%20STICKERS.jpg?alt=media&token=2bed38e0-f1c1-492e-9504-3848ab103d36",
+        "productDes": "FRUIT STICKERS is the greatest and most effective cases. A cell phone case is the protective cover for a Smartphone and will prevent it from damages by different types of mishaps such as scratches, minor accidents and water spills "
+    },
+    {
+        "productName": "HAPPY DAISIES",
+        "productPrice": 170000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FHAPPY%20DAISIES.jpg?alt=media&token=b9677d93-f591-4d5f-bf0f-9d4c76a51441",
+        "productDes": "HAPPY DAISIES is slimmer than ever, as protective as always.. Which is great because with all of the colors, patterns and clear options, you need more than just one "
+    },
+    {
+        "productName": "Postage Party",
+        "productPrice": 150000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FPostage%20Party.jpg?alt=media&token=a79ceb4b-514a-45d6-b214-8a1af88ac17d",
+        "productDes": "Postage Party with a blend of optically clear polycarbonate and flexible materials, the case fits with our hand to hold. And all materials and coatings are optimized to prevent yellowing over time. "
+    },
+    {
+        "productName": "Bun in Space",
+        "productPrice": 140000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FBun%20in%20Space.jpg?alt=media&token=4d54a8a5-c40b-4cdf-9548-e7fbb2a2b85d",
+        "productDes": "Bun in Space made from 100% recycled cases and materials, our case reflects our commitment towards protecting your tech and the environment.  "
+    },
+    {
+        "productName": "Melty Buns",
+        "productPrice": 100000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FMelty%20Buns.jpg?alt=media&token=db1de815-e9a6-4023-bb95-f3b4c9a9274c",
+        "productDes": "Melty Buns is slimmer than ever, as protective as always.. Which is great because with all of the colors, patterns and clear options, you need more than just one. "
+    },
+    {
+        "productName": "Alien Invader",
+        "productPrice": 120000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FAlien%20Invader.jpg?alt=media&token=64b42970-f983-4de4-9cd9-cc0bcb945b27",
+        "productDes": "You don’t have to choose between a protective case and a stylish one. Alien Invader is the slim and protective case that inspires your style."
+    },
+    {
+        "productName": "Retro Bun Blob",
+        "productPrice": 110000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IphoneCase%2FRetro%20Bun%20Blob.jpg?alt=media&token=3b21aaaf-4e20-4c45-ab10-c5f7a6ff6489",
+        "productDes": "Retro Bun Blob case offers the silky, soft-touch finish of the silicone exterior feels great in your hand. And on the inside, there’s a soft microfiber lining for even more protection."
+    },
+    {
+        "productName": "Coral Reef",
+        "productPrice": 200000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FCoral%20Reef.jpg?alt=media&token=bb121912-1069-4a2b-a728-78d63677761f",
+        "productDes": "Coral Reef is thin and light and offers protection for the front of your device, you can easily fold it into different positions to create a stand for reading, viewing, typing, or making FaceTime calls."
+    },
+    {
+        "productName": "Cutouts",
+        "productPrice": 190000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FCutouts.jpg?alt=media&token=70923f10-e114-4cb9-89f1-6f91aff2eed6",
+        "productDes": "Cutouts is made of fine leather, protects your iPad screen. It automatically wakes your iPad when opened and puts it to sleep when closed. "
+    },
+    {
+        "productName": "Disney Princess",
+        "productPrice": 250000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FDisney%20Princess.jpg?alt=media&token=fb2e916c-149e-4abd-898c-82491817dc0e",
+        "productDes": "Disney Princess has a slim protection to the back and sides of the iPad, protecting it from bumps and scratches.Disney Princess are made from a thermoplastic polyurethane."
+    },
+    {
+        "productName": "DAISIES",
+        "productPrice": 210000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FDAISIES.jpg?alt=media&token=665265bd-5f12-453d-ac4c-089b83315098",
+        "productDes": "DAISIES protects the back of your iPad and is designed to pair seamlessly with the smart cover. "
+    },
+    {
+        "productName": "Breakfast",
+        "productPrice": 180000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FBreakfast.jpg?alt=media&token=863e06bb-3f4c-4798-a710-4607035a574f",
+        "productDes": "Breakfast is the ideal product if you are looking for a mixture of protection and convenience. It comes with a rotating case, a built-in stand, and an internal hard case that will safeguard your device against impacts and damage such as accidental drops."
+    },
+    {
+        "productName": "Angry Lemons",
+        "productPrice": 230000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FAngry%20Lemons.jpg?alt=media&token=55d61d4d-6184-4651-909d-a74148ddf967",
+        "productDes": "Angry Lemons is made of fine leather, protects your iPad screen. It automatically wakes your iPad when opened and puts it to sleep when closed. "
+    },
+    {
+        "productName": "Dinosaur Space",
+        "productPrice": 270000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FDinosaur%20Space.jpg?alt=media&token=0ac67e97-83e4-4a4d-b654-27695009b9eb",
+        "productDes": "Dinosaur Space is thin and light and offers protection for the front of your device, you can easily fold it into different positions to create a stand for reading, viewing, typing, or making FaceTime calls."
+    },
+    {
+        "productName": "Lemons",
+        "productPrice": 200000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FLemons.jpg?alt=media&token=6ba335bd-ee17-42a9-a61d-d3f601af3880",
+        "productDes": "Lemons is made of fine leather, protects your iPad screen. It automatically wakes your iPad when opened and puts it to sleep when closed."
+    },
+    {
+        "productName": "Happy Dogs",
+        "productPrice": 220000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FHappy%20Dogs.jpg?alt=media&token=c559ba88-8fd1-44db-8bda-6f2b16b2ed37",
+        "productDes": "Happy Dogs is thin and light and offers protection for the front of your device, you can easily fold it into different positions to create a stand for reading, viewing, typing, or making FaceTime calls."
+    },
+    {
+        "productName": "Ping Pong",
+        "productPrice": 190000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FPing%20Pong.jpg?alt=media&token=73e87317-5b82-442e-9f7d-0dcc1cdce2bd",
+        "productDes": "Ping Pong has a slim protection to the back and sides of the iPad, protecting it from bumps and scratches.Ping Pong are made from a thermoplastic polyurethane."
+    },
+    {
+        "productName": "River",
+        "productPrice": 290000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FRiver.jpg?alt=media&token=0a956a12-d8f6-41e3-a3dd-5b7e069d88fd",
+        "productDes": "River is made of fine leather, protects your iPad screen. It automatically wakes your iPad when opened and puts it to sleep when closed. "
+    },
+    {
+        "productName": "Sushi Pugs",
+        "productPrice": 260000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FSushi%20Pugs.jpg?alt=media&token=9852638f-db19-41b4-8169-696ef3c5c30e",
+        "productDes": "Sushi Pugs is thin and light and offers protection for the front of your device, you can easily fold it into different positions to create a stand for reading, viewing, typing, or making FaceTime calls."
+    },
+    {
+        "productName": "Lil Ghost",
+        "productPrice": 170000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FLil%20Ghost.jpg?alt=media&token=02eaf6f9-bf7e-4deb-8c05-bd74eab484ab",
+        "productDes": "Lil Ghost has a slim protection to the back and sides of the iPad, protecting it from bumps and scratches.Lil Ghost are made from a thermoplastic polyurethane."
+    },
+    {
+        "productName": "Cat pattern",
+        "productPrice": 250000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FCat%20pattern.jpg?alt=media&token=7ed9b8a4-5e1b-4324-bc83-7c738161e583",
+        "productDes": "Cat pattern is the ideal product if you are looking for a mixture of protection and convenience. It comes with a rotating case, a built-in stand, and an internal hard case that will safeguard your device against impacts and damage such as accidental drops."
+    },
+    {
+        "productName": "Sausage Dogs",
+        "productPrice": 210000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FSausage%20Dogs.jpg?alt=media&token=10700746-cf2a-4c00-a6d9-6e86ba4b9a8e",
+        "productDes": "Sausage Dogs protects the back of your iPad and is designed to pair seamlessly with the smart cover. "
+    },
+    {
+        "productName": "Fruit Basket",
+        "productPrice": 270000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FFruit%20Basket.jpg?alt=media&token=74e8360f-6344-4bfb-9b81-0cd2c9d70cea",
+        "productDes": "Fruit Basket is thin and light and offers protection for the front of your device, you can easily fold it into different positions to create a stand for reading, viewing, typing."
+    },
+    {
+        "productName": "Labyrinth",
+        "productPrice": 180000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FLabyrinth.jpg?alt=media&token=9790521f-77ca-496a-ba2d-12a35fb83dc3",
+        "productDes": "Labyrinth is the ideal product if you are looking for a mixture of protection and convenience. It comes with a rotating case, a built-in stand, and an internal hard case that will safeguard your device against impacts and damage such as accidental drops."
+    },
+    {
+        "productName": "Colorful Florals",
+        "productPrice": 220000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FColorful%20Florals.jpg?alt=media&token=7c5dfb02-be60-4ea7-a231-5dc44ff2463c",
+        "productDes": "Colorful Florals is made of fine leather, protects your iPad screen. It automatically wakes your iPad when opened and puts it to sleep when closed. "
+    },
+    {
+        "productName": "Pink Pineapples",
+        "productPrice": 260000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FPink%20Pineapples.jpg?alt=media&token=4969a937-8e3e-4e53-83c1-a8a5f2e4d15e",
+        "productDes": "Pink Pineapples has a slim protection to the back and sides of the iPad, protecting it from bumps and scratches.Disney Princess are made from a thermoplastic polyurethane."
+    },
+    {
+        "productName": "Tubes",
+        "productPrice": 190000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/IpadCase%2FTubes.jpg?alt=media&token=45fcb63b-1e4d-4d1c-8b95-c6a842f3e7b5",
+        "productDes": "Tubes is thin and light and offers protection for the front of your device, you can easily fold it into different positions to create a stand for reading, viewing, typing, or making FaceTime calls."
+    },
+    {
+        "productName": "Space rocket",
+        "productPrice": 150000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2Fspace%20rocket.jpg?alt=media&token=679fff2e-071f-405b-aec7-01c3c106a82d",
+        "productDes": "Space rocket is made of high quality soft silicone, durable and not easily deformed. Suitable for Children's Day, Christmas, birthday, anniversary and other important holidays, as a gift."
+    },
+    {
+        "productName": "NEW YORK",
+        "productPrice": 180000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FNEW%20YORK.jpg?alt=media&token=238df366-bab2-4299-a8bc-a186970a90d6",
+        "productDes": "NEW YORK is easy installation, easy to remove, perfectly fit your AirPods with minimal bulk. Made of durable impact-resistant highly silicone rubber, brings comfortable smooth touch and flexibility."
+    },
+    {
+        "productName": "Pez Dispenser",
+        "productPrice": 140000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FPez%20Dispenser.jpg?alt=media&token=6d0ab27e-5eef-4eec-b915-41aa531143f3",
+        "productDes": "Pez Dispenser features a silky smooth liquid silicone material finish with a stylish matte black carabiner. Keep your AirPods safe and protected at all times - it’s the ultimate case for the modern lifestyle."
+    },
+    {
+        "productName": "WHITE DAISY",
+        "productPrice": 110000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FWHITE%20DAISY.jpg?alt=media&token=f1655727-1886-48e1-8bd0-a21227d8b3e2",
+        "productDes": "WHITE DAISY protects your AirPods with impact-resistant Wireless charging compatible, the lightweight case features exclusive camo artwork and comes with a handy carabiner for anyone on the go."
+    },
+    {
+        "productName": "Lost Airpods",
+        "productPrice": 130000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FLost%20Airpods.jpg?alt=media&token=893fadc7-fd42-4da7-8199-f6f0efa8d8b4",
+        "productDes": "This adorable case add some cuteness and nostalgia to your AirPods, while also protecting them from dust and drops. Coat your pods in a silicone casing."
+    },
+    {
+        "productName": "Dogs",
+        "productPrice": 190000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FDogs.jpg?alt=media&token=e9b68820-9b4c-4a3f-b286-7623d4b071e9",
+        "productDes": "This Dogs case is durable and impact-resistant, keeping your precious AirPods safe from any drops or bumps. It also prevents scratches and nicks on the surface of your charging case. "
+    },
+    {
+        "productName": "Cinderella",
+        "productPrice": 140000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FCinderella.jpg?alt=media&token=59589b1e-95d4-4659-bdca-d394aa02a878",
+        "productDes": "Cinderella is made of high quality soft silicone, durable and not easily deformed. Suitable for Children's Day, Christmas, birthday, anniversary and other important holidays, as a gift."
+    },
+    {
+        "productName": "under the sea",
+        "productPrice": 160000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2Funder%20the%20sea.jpg?alt=media&token=23fd280c-1e85-4a42-8ff5-03caa5479b39",
+        "productDes": "Under the sea is made of ethical and animal-free materials. Slim fit to perfectly adhere to your AirPods Case."
+    },
+    {
+        "productName": "Spring Botanicals",
+        "productPrice": 120000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FSpring%20Botanicals.jpg?alt=media&token=a6e8b2b1-30c3-4bd6-bcd6-a2867f063d6c",
+        "productDes": "This adorable case add some cuteness and nostalgia to your AirPods, while also protecting them from dust and drops. Coat your pods in a silicone casing."
+    },
+    {
+        "productName": "Yellow Guy",
+        "productPrice": 180000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FYellow%20Guy.jpg?alt=media&token=34fc8ef4-8a51-435b-bce6-950513404d95",
+        "productDes": "Fashion protective shell perfect fits, Yellow Guy will protect your Airpods cute waterproof, shockproof, anti-dust and against scratches. All round protection against bumps, drops and shock absorption."
+    },
+    {
+        "productName": "RED LIPS",
+        "productPrice": 170000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FRED%20LIPS.jpg?alt=media&token=e1796823-64a7-456b-9641-8203815c552e",
+        "productDes": "RED LIPS is made of high quality elastomer, flexible, shock-resistant elastomers protects your AirPods against bumps, drops and scratches."
+    },
+    {
+        "productName": "PUG",
+        "productPrice": 140000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FPUG.jpg?alt=media&token=bbfc2894-ef26-4313-a59b-ba6e59edf278",
+        "productDes": "PUG is easy installation, easy to remove, perfectly fit your AirPods with minimal bulk. Made of durable impact-resistant highly silicone rubber, brings comfortable smooth touch and flexibility."
+    },
+    {
+        "productName": "Magenta Confetti",
+        "productPrice": 130000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FMagenta%20Confetti.jpg?alt=media&token=6bd2c7ec-9269-436c-95f0-7ca247eabbe8",
+        "productDes": "Magenta Confetti is made of high quality soft silicone, durable and not easily deformed. Suitable for Children's Day, Christmas, birthday, anniversary and other important holidays, as a gift."
+    },
+    {
+        "productName": "Hipster Corgi",
+        "productPrice": 150000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FHipster%20Corgi.jpg?alt=media&token=0416586c-08fb-465f-a556-736945041c34",
+        "productDes": "Hipster Corgi features a silky smooth liquid silicone material finish with a stylish matte black carabiner. Keep your AirPods safe and protected at all times - it’s the ultimate case for the modern lifestyle."
+    },
+    {
+        "productName": "DOG FACES",
+        "productPrice": 180000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FDOG%20FACES.jpg?alt=media&token=acb10c3b-2384-480e-9c5d-7f4fce2dcddd",
+        "productDes": "DOG FACES stylish fresh creative case is designed with super cute 3D cartoon style, great quality and feels comfortable to hold."
+    },
+    {
+        "productName": "Girl and coffee",
+        "productPrice": 200000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FGirl%20and%20coffee.jpg?alt=media&token=e9bdb93d-9d9d-48e3-9d34-9da74b9e6c3a",
+        "productDes": "Girl and coffee is made of high quality soft silicone, durable and not easily deformed. Suitable for Children's Day, Christmas, birthday, anniversary and other important holidays, as a gift."
+    },
+    {
+        "productName": "CACTI",
+        "productPrice": 120000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FCACTI.jpg?alt=media&token=6117996c-e45a-403e-b82a-2f1ab8c09c8a",
+        "productDes": "CACTI protects your AirPods with impact-resistant Wireless charging compatible, the lightweight case features exclusive camo artwork and comes with a handy carabiner for anyone on the go."
+    },
+    {
+        "productName": "TORONTO",
+        "productPrice": 170000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FTORONTO.jpg?alt=media&token=d47d9f6a-8084-4091-a971-52e3899c15ec",
+        "productDes": "TORONTO is made of ethical and animal-free materials. Slim fit to perfectly adhere to your AirPods Case."
+    },
+    {
+        "productName": "Open Your Mind",
+        "productPrice": 120000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FOpen%20Your%20Mind.jpg?alt=media&token=d56f8ba7-54fb-4be7-acce-4ca7b5f58ec0",
+        "productDes": "Open Your Mind is Made of high quality elastomer, flexible, shock-resistant elastomers protects your AirPods against bumps, drops and scratches."
+    },
+    {
+        "productName": "Rainbow",
+        "productPrice": 190000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/AirpodsCase%2FRainbow.jpg?alt=media&token=68e67447-c1af-420a-8cb7-0bb4e0593764",
+        "productDes": "Rainbow is easy installation, easy to remove, perfectly fit your AirPods with minimal bulk. Made of durable impact-resistant highly silicone rubber, brings comfortable smooth touch and flexibility."
+    },
+    {
+        "productName": "Fruit Salad",
+        "productPrice": 350000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FFruit%20Salad.jpg?alt=media&token=b27e1ce6-793f-4610-a614-c04b8e55624a",
+        "productDes": "Fruit Salad is made of finish plastic hard shell case protects your laptop from scrapes and scratches. Ultra slim light weight hard case and thickness design almost adds no weight to your device."
+    },
+    {
+        "productName": "Beatbop",
+        "productPrice": 290000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FBeatbop.jpg?alt=media&token=aa20fc6e-0244-4d8a-ac37-8b82d694b07c",
+        "productDes": "Beatbop is printed with UV Japan. High quality case will protection your device from scratches and abrasion. Design with ventilation holes at the bottom piece part of the cover, and also with four raised taps."
+    },
+    {
+        "productName": "Stickers",
+        "productPrice": 310000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FStickers.jpg?alt=media&token=deeb7d2f-c3ca-43db-9abe-82b186326f2e",
+        "productDes": "Stickers case creates a barrier that will help you prevent marks of scratches, knocks, and fingerprints on your precious device, without adding any bulk. Thanks to precise openings, you’ll still have easy access to all essential ports and will be able to use your laptop as usual."
+    },
+    {
+        "productName": "COW PRINT",
+        "productPrice": 300000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FCOW%20PRINT.jpg?alt=media&token=2ac5d455-1677-4f8b-b53e-cde7eda80a57",
+        "productDes": "COW PRINT Protects your laptop from scratches, dust and dirt. Keeps it clean and newer looking for longer Snap-on design allows for easy installation and is easily removable Apple logo cut out"
+    },
+    {
+        "productName": "Woodland Florals",
+        "productPrice": 340000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FWoodland%20Florals.jpg?alt=media&token=d1a991d5-1245-4bd4-9415-734a07c979c4",
+        "productDes": "Puppy on red are made of durable polycarbonate, Puppy on red is precision-engineered to fit perfectly, for a MacBook case that holds secure and removes easily. "
+    },
+    {
+        "productName": "Dog Park",
+        "productPrice": 280000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FDog%20Park.jpg?alt=media&token=d5294dca-d837-40de-a40e-770b9fd46086",
+        "productDes": "Dog Park is printed with UV Japan. High quality case will protection your device from scratches and abrasion. Design with ventilation holes at the bottom piece part of the cover, and also with four raised taps."
+    },
+    {
+        "productName": "Pastel mountain",
+        "productPrice": 330000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FPastel%20mountain.jpg?alt=media&token=368c3d70-3eaf-4559-832e-898d02788a18",
+        "productDes": "Pastel mountain Protects your laptop from scratches, dust and dirt. Keeps it clean and newer looking for longer Snap-on design allows for easy installation and is easily removable Apple logo cut out"
+    },
+    {
+        "productName": "Positivity Pack",
+        "productPrice": 300000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FPositivity%20Pack.jpg?alt=media&token=dee9af1a-b54c-4c17-9398-210a39642a5d",
+        "productDes": "Positivity Pack case creates a barrier that will help you prevent marks of scratches, knocks, and fingerprints on your precious device, without adding any bulk. Thanks to precise openings, you’ll still have easy access to all essential ports and will be able to use your laptop as usual."
+    },
+    {
+        "productName": "PANDA YOGA",
+        "productPrice": 290000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FPANDA%20YOGA.jpg?alt=media&token=3b03d219-fd94-4020-a6b3-0de1135d26f6",
+        "productDes": "PANDA YOGA is made of finish plastic hard shell case protects your laptop from scrapes and scratches. Ultra slim light weight hard case and thickness design almost adds no weight to your device."
+    },
+    {
+        "productName": "nature leaf",
+        "productPrice": 350000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2Fnature%20leaf.jpg?alt=media&token=cc7a9ba3-ed2b-40c1-985c-bfd408577b78",
+        "productDes": "Nature leaf is made of non-toxic and tasteless PC raw materials - Gives your MacBook a Soft Touch.Prevents Fingerprints, Slipping, Scratches, Drops, Dirt, Smudges and Other Damages to your valuable MacBook."
+    },
+    {
+        "productName": "Dog Walk",
+        "productPrice": 310000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FDog%20Walk.jpg?alt=media&token=a0653771-e52f-41d8-9228-f62600d0aa5b",
+        "productDes": "Dog Walkk case creates a barrier that will help you prevent marks of scratches, knocks, and fingerprints on your precious device, without adding any bulk. Thanks to precise openings, you’ll still have easy access to all essential ports and will be able to use your laptop as usual."
+    },
+    {
+        "productName": "Footprints",
+        "productPrice": 280000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FFootprints.jpg?alt=media&token=d9aa0a29-549f-4632-a12c-a7459036b69b",
+        "productDes": "Footprints is printed with UV Japan. High quality case will protection your device from scratches and abrasion. Design with ventilation holes at the bottom piece part of the cover, and also with four raised taps."
+    },
+    {
+        "productName": "Woods Abstract",
+        "productPrice": 300000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FWoods%20Abstract.jpg?alt=media&token=a3003561-5722-4f59-a474-f8cede03e9b7",
+        "productDes": "Woods Abstract  is made of finish plastic hard shell case protects your laptop from scrapes and scratches. Ultra slim light weight hard case and thickness design almost adds no weight to yo"
+    },
+    {
+        "productName": "Lemon Tree",
+        "productPrice": 350000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FLemon%20Tree.jpg?alt=media&token=ce67e351-1199-4a7c-b793-d0976558368a",
+        "productDes": "Lemon Tree case creates a barrier that will help you prevent marks of scratches, knocks, and fingerprints on your precious device, without adding any bulk. Thanks to precise openings, you’ll still have easy access to all essential ports and will be able to use your laptop as usual."
+    },
+    {
+        "productName": "Cute Bulldogs",
+        "productPrice": 310000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FCute%20Bulldogs.jpg?alt=media&token=a4397394-6a8c-4efe-afe7-6f4a4ffc171d",
+        "productDes": "Cute Bulldogs is made of non-toxic and tasteless PC raw materials - Gives your MacBook a Soft Touch. Prevents Fingerprints, Slipping, Scratches, Drops, Dirt, Smudges and Other Damages to your valuable MacBook."
+    },
+    {
+        "productName": "STICKERFEST",
+        "productPrice": 340000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FSTICKERFEST.jpg?alt=media&token=12d4c1c7-0458-4bbb-a8c9-9ee7e37981cf",
+        "productDes": "STICKERFEST is printed with UV Japan. High quality case will protection your device from scratches and abrasion. Design with ventilation holes at the bottom piece part of the cover, and also with four raised taps."
+    },
+    {
+        "productName": "Puppy on red",
+        "productPrice": 360000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FPuppy%20on%20red.jpg?alt=media&token=b9d9b12b-2a03-4b9a-9cac-5ffb8101e244",
+        "productDes": "Puppy on red are made of durable polycarbonate, Puppy on red is precision-engineered to fit perfectly, for a MacBook case that holds secure and removes easily. "
+    },
+    {
+        "productName": "sunflowers",
+        "productPrice": 290000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2Fsunflowers.jpg?alt=media&token=04b927da-1135-4276-ac15-2aa3e1f74898",
+        "productDes": "sunflowers case creates a barrier that will help you prevent marks of scratches, knocks, and fingerprints on your precious device, without adding any bulk. Thanks to precise openings, you’ll still have easy access to all essential ports and will be able to use your laptop as usual."
+    },
+    {
+        "productName": "Sausage Dogs",
+        "productPrice": 310000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FSausage%20Dogs.jpg?alt=media&token=079dd5aa-f6cd-4f2e-9425-2c345be06a04",
+        "productDes": "Sausage Dogs is made of finish plastic hard shell case protects your laptop from scrapes and scratches. Ultra slim light weight hard case and thickness design almost adds no weight to your device."
+    },
+    {
+        "productName": "Pastel blue leave",
+        "productPrice": 300000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/MacbookCase%2FPastel%20blue%20leave.jpg?alt=media&token=fa4d6022-491e-4903-bee8-25599397f42c",
+        "productDes": "Pastel blue leave is printed with UV Japan. High quality case will protection your device from scratches and abrasion. Design with ventilation holes at the bottom piece part of the cover, and also with four raised taps."
+    },
+    {
+        "productName": "Type C Apple MQGH2",
+        "productPrice": 990000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FType%20C%20Apple%20MQGH2.jpeg?alt=media&token=058aa4ad-8594-4c8d-acdf-60688a38b661",
+        "productDes": "USB-C to Lightning cable (2m). Use this cable to connect an iPhone, iPad, or iPod with a Lightning connector to the Mac USB-C or Thunderbolt 3 (USB-C) port for syncing and charging, or to the iPad USB-C port for charging."
+    },
+    {
+        "productName": "Type C Apple MM0A3",
+        "productPrice": 590000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FType%20C%20Apple%20MM0A3.jpg?alt=media&token=3ced9753-2b02-4140-95ef-cdd75cc2f65b",
+        "productDes": "Luxury white charging cable , 1 m in length, suitable for use at home or at work. Powerful battery charger with power levels up to  87 W. Efficient data synchronization between phone and laptop. Type-C   input and Lightning output for use with Apple devices, charger adapters, power banks."
+    },
+    {
+        "productName": "Type C Apple MX0K2",
+        "productPrice": 560000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FType%20C%20Apple%20MX0K2.jpg?alt=media&token=178f792d-0942-481e-8509-e791c9117b4b",
+        "productDes": "Cable with 1 Type C connector and 1 Lightning connector, used for charging and data transmission. 1 meter long cord, convenient to use. Fast charger for iPhone, iPad with Adapter 29W, 30W, 61W, 87W. Can be used with many other adapters or backup batteries with Type-C output ports."
+    },
+    {
+        "productName": "Apple Watch MX2G2",
+        "productPrice": 750000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FApple%20Watch%20MX2G2.jpg?alt=media&token=da8c68dd-39d8-483e-8c78-2796ca3be0b6",
+        "productDes": "Compact design, elegant color, 30 cm length is convenient when charging Apple Watch. Using a magnetic charger with  safe Magsafe technology , easy to connect. Specialized product to charge the battery for Apple Watch. The USB charger is suitable for a variety of adapters and power banks..."
+    },
+    {
+        "productName": "Apple MXLY2",
+        "productPrice": 522000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FApple%20MXLY2.jpg?alt=media&token=9fa30e5d-358e-40e1-91c9-e41c0b8b8a46",
+        "productDes": "Cable made of durable plastic material, anti-twist, 1 m long, convenient to use. Equipped with 1 USB port and 1 Lightning port to support battery recharging and data transmission for devices using Lightning port. Use for iPhone 5 series, iPad 4 and above. USB port connects to adapter, power bank or PC, laptop easily."
+    },
+    {
+        "productName": "Type C Apple MKQ42",
+        "productPrice": 940000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FType%20C%20Apple%20MKQ42.jpg?alt=media&token=9dbda985-c90b-4d2a-8e90-c57cbcf67dc5",
+        "productDes": "Genuine Apple product, 100% sealed. Designed with 1 Type C connector and 1 Lightning connector, used for charging and data transmission. Convenient 2m long cord, durable, anti-twisting material. Can be used with Apple's 29W, 30W, 61W, 87W USB-C Adapter to quickly charge iPhone and iPad. Can be used with many other adapters or backup batteries with USB Type-C output ports."
+    },
+    {
+        "productName": "Type C Apple MUF72",
+        "productPrice": 560000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FType%20C%20Apple%20MUF72.jpg?alt=media&token=80af1cdb-4898-47f1-bc0d-a96a51f77f2a",
+        "productDes": "Built-in 2 Type-C ports at the same time, for charging or data transmission. Compatible with iPad and Macbook models using Type-C port. Easy connection with phones, tablets, power banks, headphones… 20W high-speed charging, safe data transmission."
+    },
+    {
+        "productName": "Apple ME291",
+        "productPrice": 490000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FApple%20ME291.jpg?alt=media&token=344b314d-3d9d-4d81-954b-cc730c55c074",
+        "productDes": "For iPhone 5 series, iPad 4 and above with Lightning output. Use it to copy data or charge the battery (with its own adapter) quickly and safely. Maximum charging current 10 W (5V - 2A). The USB port is good for many devices such as adapters, power banks, laptops, PCs."
+    },
+    {
+        "productName": "Apple MU9K2",
+        "productPrice": 750000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FApple%20MU9K2.jpg?alt=media&token=1e5ca8df-6f17-44f4-9b9e-c8bfd6b7bfba",
+        "productDes": "Dedicated charging cord for Apple Watch. Genuine product with original seal from Apple. Use the connection with the 30 W Type-C adapter (sold separately) or connect the charger indirectly via the MacBook with USB-C port and iPad Pro 11, iPad Pro 12.9 2018. Compact design, 30cm length convenient to charge."
+    },
+    {
+        "productName": "Type C Apple MLL82",
+        "productPrice": 621000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FType%20C%20Apple%20MLL82.jpg?alt=media&token=db3f1afb-41ac-48b9-b3bd-f0ac02d3704b",
+        "productDes": "Built-in 2 Type-C ports at the same time, for charging or data transmission. Charging current with a maximum capacity of 96 W fully charges the battery quickly. The cord is 2m long , convenient to use. Compatible with the following iPad and Macbook devices: iPad, MacBook, Mac Mini,..."
+    },
+    {
+        "productName": "Type C Apple MQ4H2",
+        "productPrice": 1225000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FType%20C%20Apple%20MQ4H2.jpg?alt=media&token=769752fc-e571-4f04-b2fa-9aad5d922a7a",
+        "productDes": "Capable of data transfer up to 40 Gbps and charging with a maximum capacity of 100W. Good connection with adapter, Macbook, Mac Mini,... The cord is 0.8 m long, easy to use in any situation. 2 Type-C heads can be used to charge devices or share data."
+    },
+    {
+        "productName": "TALK WORKS Cable",
+        "productPrice": 270000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FTALK%20WORKS%20Cable.jpg?alt=media&token=471e4b01-a7ac-4284-9ff6-6c81dc83beca",
+        "productDes": "Extra long charging cable features an extended 10ft length for the convenience to use at a distance from your power source while the durable reinforced covering offers extra strength and support"
+    },
+    {
+        "productName": "KINPS Charging Cable",
+        "productPrice": 320000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FKINPS%20Charging%20Cable.jpg?alt=media&token=a440f387-fda3-4bc3-aed1-fe9f5e43d401",
+        "productDes": "Fast Charge and Rapid Sync. The cable supports data transfer between your USB-C equipped Mac and Lightning-enabled iPhone, iPad, or iPod. Perfect for charging your IOS devices, or transferring/ syncing files, videos and music."
+    },
+    {
+        "productName": "Anker Lightning Cable",
+        "productPrice": 320000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FAnker%20Lightning%20Cable.jpg?alt=media&token=1316839e-6c64-4db1-bd93-c011e945ab2e",
+        "productDes": "Power delivery: use this cable with your USB-C power delivery charger (including Apple 18W 29W, 30W, 61W, or 87W USB-C power adapter) to charge your iOS device, and access fast-charging for iPhone 13 13 Pro 12 Pro Max 12 11 X XS XR 8 Plus, AirPods Pro"
+    },
+    {
+        "productName": "Belkin Charging Cable",
+        "productPrice": 390000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FBelkin%20Charging%20Cable.jpg?alt=media&token=207043b4-8fc1-451c-8dee-955f815994e9",
+        "productDes": "Charge and sync any Apple Lightning device, including iPhone, iPad, and AirPods Highly durable braided nylon exterior tested to withstand 10000+ bends"
+    },
+    {
+        "productName": "Eashion iPhone Charger",
+        "productPrice": 200000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FEashion%20iPhone%20Charger.jpg?alt=media&token=a6b8b620-74ed-434b-be2c-dbcb5981f38b",
+        "productDes": "5 pack Mfi Certified iPhone lightning cable in assorted lengths (1/3/3/5/5FT) you can prepare for home,work or travel. You can put charger cables in your bag, car, office, home, making charging more convenient"
+    },
+    {
+        "productName": "Oliomp Lightning Cable",
+        "productPrice": 322000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FOliomp%20Lightning%20Cable.jpg?alt=media&token=e709b3b3-82cc-4dd7-9b7c-f84a02b8f995",
+        "productDes": "USB-C to Lightning Cable uses a brand-new MFI certified chip and promises that there will be no warning messages to ensure that your lightning device can be loaded and charged safely and quickly at the maximum speed."
+    },
+    {
+        "productName": "Aioneus iPhone Charger",
+        "productPrice": 207000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FAioneus%20iPhone%20Charger.jpg?alt=media&token=35fcbf65-ed8f-4230-8e77-2cb064f40636",
+        "productDes": "This iphone charging cable supports charging and data transmission. The high-quality tinned copper wire provides stable and fast charging. The upgraded chip enables the transmission speed to reach 480 Mbits. 1 Foot length brings you more convenience. For example, use mobile power to charge, connect to computer and travel. Avoid tangles and facilitate storage.Perfect replacements for your original lightning cable with superior performance."
+    },
+    {
+        "productName": "Umefly Lightning Cable",
+        "productPrice": 138000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FUmefly%20Lightning%20Cable.jpg?alt=media&token=c0b41a0a-8044-414f-97c7-191a482c79e5",
+        "productDes": "High-quality Tinned copper wire maximizes fast and stable charging. Built-in Apple original chipset ensures safety for iPhone devices. We have made thousands of tests to ensure 100% safety. Comply with USB 2.0 standard, supports data transmission speed up to 480Mbps ( 60M/s )."
+    },
+    {
+        "productName": "PQI iPhone Charger Cable",
+        "productPrice": 230000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Cables%2FPQI%20iPhone%20Charger%20Cable.jpg?alt=media&token=27b45f96-12c6-4918-bc61-db8bed4cb114",
+        "productDes": "Made of Power - Pushing through up to 60W of power, PQI iCable can deliver full capacity of the energy. Upgrade your charging efficiency. Designed to Last - Reinforced with Nylon as outer braid and solid aluminum material in the core, this cable can take 10,000 times of bending. Proved by Apple - PQI iCable is MFi approved, which is the lightning cable has Certified by Apple."
+    },
+    {
+        "productName": "Amoner Wall Charger",
+        "productPrice": 320000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FAmoner%20Wall%20Charger.jpg?alt=media&token=541bd006-e287-48b4-a457-c6b9ef6214b2",
+        "productDes": "Upgraded 15W 3-Port Wall Charger - The upgraded wall charger makes the power output more stable. CE/FCC certificated, built-in safeguards protect your devices against over-current, over voltage and short-circuit"
+    },
+    {
+        "productName": "Keymox Fast Charger",
+        "productPrice": 210000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FKeymox%20Fast%20Charger.jpg?alt=media&token=a65ab8bd-a1f4-4b5b-8fe5-7501c320f469",
+        "productDes": "Fast Charging: Qualcomm Quick Charge 3.0 technology recharges compatible devices up to 80% in just 35 minutes. 4 times faster charging speeds than conventional chargers."
+    },
+    {
+        "productName": "Belkin Wall Charger",
+        "productPrice": 390000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FBelkin%20Wall%20Charger.jpg?alt=media&token=afc8e27f-24b9-4775-b308-fed4b39e562e",
+        "productDes": "Ultra Fast Charging: The Belkin BOOST↑CHARGE 20W USB-C PD Wall Charger delivers rapid, efficient charging at home, in the office, or on the go. Charges PD-enabled devices to 50% in around 30 minutes."
+    },
+    {
+        "productName": "Yootech Wireless Charger",
+        "productPrice": 320000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FYootech%20Wireless%20Charger.jpg?alt=media&token=a2b2f771-e94d-4055-ba74-2c2c8e202642",
+        "productDes": "SLEEP-FRIENDLY DESIGN. The GREEN LED Indicator will flash for 3s if power source is connected, then turn on for 16s if recognizes your phone well. Entering charging mode, light will turn off and keep the whole charging process SLEEP-FRIENDLY."
+    },
+    {
+        "productName": "KEYMOX Wireless Charger",
+        "productPrice": 300000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FKEYMOX%20Wireless%20Charger.jpg?alt=media&token=baba8776-0084-4fd6-8475-b34c7c441abb",
+        "productDes": "Wireless Charger Modes: providing 10W high-speed charging for Samsung Galaxy, a 7.5W charging mode to charge iPhones and 5W standard charge mode for other Qi-enabled devices. Ideal Charger for AirPods wireless charge: It is compatible with AirPods (with wireless charging case) and AirPods Pro."
+    },
+    {
+        "productName": "SMPL. Fast Wireless Charger",
+        "productPrice": 650000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FSMPL.%20Fast%20Wireless%20Charger.jpg?alt=media&token=ab3e659f-e385-40e1-b6e7-d06b5cfde81d",
+        "productDes": "Fast Wireless Charging with Smpl. Rapid Charge: enables 10W wireless charging up to 2x faster with USB-A to USB-C Cable. Advanced Safety Features: Integrated smart-chip prevents overheating, short-circuiting and maintains temperature control"
+    },
+    {
+        "productName": "Apple Power Adapter",
+        "productPrice": 420000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FApple%20Power%20Adapter.jpg?alt=media&token=da583f62-1bd2-428f-b7ce-768d60fb6d36",
+        "productDes": "The Apple 20W USB‑C Power Adapter offers fast, efficient charging at home, in the office, or on the go. You can also pair it with iPhone 8 or later to take advantage of the fast-charging feature."
+    },
+    {
+        "productName": "Iphone Charging Blocks",
+        "productPrice": 390000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FIphone%20Charging%20Blocks.jpg?alt=media&token=ebb69ddd-158e-400e-9bfd-f9e643f4ab25",
+        "productDes": "Unique Shape: ABS + PC fireproof material, with the confirm connection system, you can make sure your digital devices are always charged. Simply plug in the USB cable, and plug the adapter into the wall. Compact, lightweight, portable, stylish, easy to store."
+    },
+    {
+        "productName": "USB Wall Charger",
+        "productPrice": 390000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FUSB%20Wall%20Charger.jpg?alt=media&token=9a0b878f-33fc-44a8-acd3-c2d2e98fdbc1",
+        "productDes": "Premium Performance: Dual-USB output with total current 5V/2.1A and input with 100-240V enables you to charge two mobile devices simultaneously at high speed.It can really save your time."
+    },
+    {
+        "productName": "Apple MagSafe Charger",
+        "productPrice": 900000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FApple%20MagSafe%20Charger.jpg?alt=media&token=4d8ef12a-e9b5-4f00-a95f-ab6cba774c34",
+        "productDes": "The MagSafe Charger makes wireless charging a snap. The perfectly aligned magnets attach to your AirPods or iPhone. The MagSafe Charger maintains compatibility with Qi charging, so it can be used to wirelessly charge your iPhone 8 or later, as well as AirPods models with a wireless charging case, as you would with any Qi-certified charger."
+    },
+    {
+        "productName": "KELBRIA Wireless Charger",
+        "productPrice": 300000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FKELBRIA%20Wireless%20Charger.jpg?alt=media&token=49c3cbb6-46ce-4d1c-aee7-9f8dfec47980",
+        "productDes": "Wireless Charger Modes: providing 10W high-speed charging for Samsung Galaxy, a 7.5W charging mode to charge iPhones and 5W standard charge mode for other Qi-enabled devices. Ideal Charger for AirPods wireless charge: It is compatible with AirPods (with wireless charging case) and AirPods Pro."
+    },
+    {
+        "productName": "AILKIN Wall Charger",
+        "productPrice": 230000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FAILKIN%20Wall%20Charger.jpg?alt=media&token=8992df4d-6569-4c2b-8611-d50f94493d5e",
+        "productDes": "4-USB output with total current 5V/4.8A and input with 100-240V enables you to charge four mobile devices simultaneously at high speed.It can really save your time. AILKIN'S charger has protection system against over charging, over currents, and over heating."
+    },
+    {
+        "productName": "ULTRANET Charger Block",
+        "productPrice": 430000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FULTRANET%20Charger%20Block.jpg?alt=media&token=fe0a0c58-8874-4fd5-995f-b933fb81ee18",
+        "productDes": "From iPhone 12 to Nintendo Switch and various USB C laptops, our GaN USB C Charger provide the highest charging speed for all your devices. Perfect USB wall charger for Apple devices that support fast charging PPS PD protocols."
+    },
+    {
+        "productName": "AILKIN Charger Cube",
+        "productPrice": 190000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FAILKIN%20Charger%20Cube.jpg?alt=media&token=84c29c2c-4024-4611-8395-c0a8fee8421c",
+        "productDes": "Premium Performance: Dual-USB output with total current 5V/2.1A and input with 100-240V enables you to charge two mobile devices simultaneously at high speed.It can really save your time! AILKIN'S charger has protection system against over charging, over currents, and over heating."
+    },
+    {
+        "productName": "LUOATIP Fast Charge",
+        "productPrice": 230000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FLUOATIP%20Fast%20Charger.jpg?alt=media&token=f5cc1824-940b-44a3-b295-bd2dbff3e9da",
+        "productDes": "Protection Function: Fireproof material. USB C power adapter fire proof shell and over charging, over currents, and over heating. Charging stops when battery is full. Features: Heat resistant and Anti-throw design, Compact and Easy to carry, Comfortable grip, USB C plug allows charging at home, travel, office, and business trip."
+    },
+    {
+        "productName": "OTTERBOX Wall Charger",
+        "productPrice": 575000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FOTTERBOX%20Wall%20Charger.jpg?alt=media&token=af5b580a-5470-4121-8706-685f5afc4391",
+        "productDes": "Ultra-safe, highly efficient, rugged and built to outlast Smart design with a foldable plug is drop tested and wrapped in a tough exterior, but still compact enough to fit into the smallest purse or travel bag."
+    },
+    {
+        "productName": "ULTRANET Power Adapter",
+        "productPrice": 430000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FULTRANET%20Power%20Adapter.jpg?alt=media&token=97d8abd6-432c-4922-b32b-bf44b508a176",
+        "productDes": "From iPhone 12 to Nintendo Switch and various USB C laptops, our GaN USB C Charger provide the highest charging speed for all your devices. Perfect USB wall charger for Apple devices that support fast charging PPS PD protocols."
+    },
+    {
+        "productName": "Power Adapter Wall Plug",
+        "productPrice": 230000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FPower%20Adapter%20Wall%20Plug.jpg?alt=media&token=1f90467e-99e1-4776-857b-391c2ef73c0a",
+        "productDes": "Extremely compact size & lightweight, USB C charger fast charger will not take up much space or block other outlets while charging more of your devices, handy for home, office and on-the-go. AC 100-240V international voltage compatibility, is the ideal travel companion for worldwide travel."
+    },
+    {
+        "productName": "PISEN Wall Charger",
+        "productPrice": 350000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FPISEN%20Wall%20Charger.jpg?alt=media&token=14eb7338-fcf7-4913-b3cf-c36f7e226a8c",
+        "productDes": "20W PD 3.0 Fast Wall Charger: PISEN fast charger equipped with PD 3.0 technology can provide a maximum of 20W output power to charge your device. The speed is 3X faster than the original 5W charger, and it only takes 30 minutes to charge the iPhone 12 up to 57%, saving you more than 1.5 hours."
+    },
+    {
+        "productName": "NOUUI Wall Charger",
+        "productPrice": 230000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/Charger%2FNOUUI%20Wall%20Charger.jpg?alt=media&token=18bb330f-63fe-4282-9a5f-fcb1bbce2f4d",
+        "productDes": "This USB C Wall Charger is 30% smaller than other USB-C fast chargers. Perfectly fits in your pocket, purse, and even your palm. The portable foldable plug and travel-friendly design provide maximum portability wherever you go. It is suitable for any place such as homes and offices, meeting the charging needs of multiple scenarios and multiple devices to the greatest extent."
+    },
+    {
+        "productName": "LCD Power Bank",
+        "productPrice": 300000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FLCD%20Power%20Bank.jpg?alt=media&token=a637fef6-19de-4cfa-8693-47b96256445d",
+        "productDes": "Portable charger Power bank high capacity The 30,800mAh power bank could charge your phone at least 6-8 times, Suitable for business, travel, going out, you don't have to worry about your phone low battery."
+    },
+    {
+        "productName": "Pxwaxpy Power Bank",
+        "productPrice": 690000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FPxwaxpy%20Power%20Bank.jpg?alt=media&token=70415149-5abb-48ff-ad01-e7f914838961",
+        "productDes": "Super Safety - Intelligent Controlling IC: Pxwaxpy Power bank built-in Intelligent Controlling IC can effectively prevent your power bank overcharge, overvoltage, overcurrent and short circuit. you can get more convenient and happy from this high quality power bank."
+    },
+    {
+        "productName": "ROMOSS Power Bank",
+        "productPrice": 460000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FROMOSS%20Power%20Bank.jpg?alt=media&token=972e68d1-e3f3-4bfc-a02f-5d73787913c7",
+        "productDes": "Fully recharged power bank Sense 8+, the 30,000mAh capacity gives 12.6 full charges to iPhone 8, 7.2 to Samsung S9, and 4 full charges to iPad mini 4. A Must-have for unlimited gamers, for camping, hiking and all kinds of fests."
+    },
+    {
+        "productName": "FOCHEW Power Bank",
+        "productPrice": 690000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FFOCHEW%20Power%20Bank.jpg?alt=media&token=d67a7884-7252-4987-9353-ff6085b26ecf",
+        "productDes": "Wireless portable charger support 5W, 7.5W,10W and 15W Max wireless fast charging. Conveniently charge your QI-Certified devices up to 15W without connect cable."
+    },
+    {
+        "productName": "Miady Power Bank",
+        "productPrice": 650000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FMiady%20Power%20Bank.jpg?alt=media&token=8e4bf3c9-2090-4b22-ace3-9b67423928c7",
+        "productDes": "With 15000mAh power capacity, an iPhone 11 can be charged to its full power 3.4 times, or a high capacity smartphone such as Samsung Galaxy S20 can be charged to its full power about 2.6 times. You can also plug in two smartphones for simultaneously juicing up."
+    },
+    {
+        "productName": "TALK WORKS Power Bank",
+        "productPrice": 500000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FTALK%20WORKS%20Power%20Bank.jpg?alt=media&token=394b4d50-7448-4c90-bcc0-19002b2b8357",
+        "productDes": "Our power banks will keep you powered at home, in the office and on-the-go with extra battery for your cell phone for Apple iPhone, Android for Samsung Galaxy, iPad/Tablet or USB devices (Bluetooth Headphones, Bluetooth Speakers, etc.)"
+    },
+    {
+        "productName": "Charmast Power Bank",
+        "productPrice": 920000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FCharmast%20Power%20Bank.jpg?alt=media&token=36c01985-4c8f-47ce-9365-7d26fc442b48",
+        "productDes": "It needs only 9 hours to fully charge this Charmast portable phone charger, great for charging cellphones and tablets. Keep your phone always on without using up all your USB wall charger outlets. Perfect gift for Christmas, Business trip, Walking, Travelling, Disney."
+    },
+    {
+        "productName": "BSYYO Power Bank",
+        "productPrice": 300000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FBSYYO%20Power%20Bank.jpg?alt=media&token=2d81f49b-9f0d-4a7e-838d-4dde0ca0f6ad",
+        "productDes": "BSYYO Portable Charger Equipped 2 USB and 1 USB C Ports you can power up three devices together at a blazing-fast speed up to 3A,Intelligently Detects and Charges Your Devices at Its Max Speed"
+    },
+    {
+        "productName": "JIGA Power Bank",
+        "productPrice": 800000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FJIGA%20Power%20Bank.jpg?alt=media&token=19cbb68f-b5f4-4cc4-a112-dadcd0c6f8c0",
+        "productDes": "All JIGA portable chargers equipped with Exclusive Smart IC to ensure a stable performance and fastest possible speed when charging multiple devices together. Recharge cycle for more than 500 times and a standby time of 6 months Bullet Point"
+    },
+    {
+        "productName": "Ekrist Power Bank",
+        "productPrice": 1100000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FEkrist%20Power%20Bank.jpg?alt=media&token=e54a9851-7c67-44df-88ab-bda0e1eed39d",
+        "productDes": "2020 Newest Updated Portable Charger with Wireless Charger, PD USB-C Input/Output and Quick Charger QC3.0 for incredible charging speeds, Ultra-huge Capacity, Reliable powerful, Longer-lasting life, and multiple smart protection system to ensure total safety."
+    },
+    {
+        "productName": "CONXWAN Power Bank",
+        "productPrice": 900000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FCONXWAN%20Power%20Bank.jpg?alt=media&token=5dbcf102-3bbe-433d-913b-e419ef1a67cf",
+        "productDes": "This power bank is compact as your average mobile phone, which will fit in most pockets nicely. The smart LCD are pretty accurate to show the status of battery charge left."
+    },
+    {
+        "productName": "Anker Power Bank",
+        "productPrice": 690000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FAnker%20Power%20Bank.jpg?alt=media&token=78b2b4c7-3ad1-4478-a5ec-c363064777af",
+        "productDes": "This power bank is compact as your average mobile phone, which will fit in most pockets nicely. The smart LCD are pretty accurate to show the status of battery charge left."
+    },
+    {
+        "productName": "Mophie Power Bank",
+        "productPrice": 1500000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FMophie%20Power%20Bank.jpg?alt=media&token=8318a7e3-6384-4ce1-8fe4-435c1e8d3526",
+        "productDes": "Up To 4.6 Full Phone Charges - High capacity portable power bank containing a 20,000mAh battery. 18W USB-C PD Output- Charge your phone at the fastest speed possible with the USB-C’s 18W output and get up to 50% battery in just 30 minutes."
+    },
+    {
+        "productName": "ABOE Power Bank",
+        "productPrice": 1200000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FABOE%20Power%20Bank.jpg?alt=media&token=9daf76fa-43a2-4de5-aae6-3a72f7a55e3a",
+        "productDes": "Wirless portable charger supports 5W, 7.5W, and 10W MAX wireless fast charging, No cables required, Compatible with most wireless charging devices , and can also be wireless fast charging with a case.[Within 3mm thickness]"
+    },
+    {
+        "productName": "Amcrest Power Bank",
+        "productPrice": 870000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FAmcrest%20Power%20Bank.jpg?alt=media&token=a3c5a1d5-b0df-4154-9e27-4c086b03561b",
+        "productDes": "This USB C power bank features an incredible 26800 mAh cell capacity that provides 7.5 charges for iPhone 12, 5 charges for Galaxy Note 20, 6.5 charges for Samsung S9+, and 8 charges for iPhone X, utilizing the latest USB-C industry leading charging standard, giving you power when you need it."
+    },
+    {
+        "productName": "Kuulaa Power Bank",
+        "productPrice": 380000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FKuulaa%20Power%20Bank.jpg?alt=media&token=7e9eeb27-13d2-41da-aa71-30a3f417ca9a",
+        "productDes": "Thanks to the Li-polymer battery pack, the charger is much safer than any Li-ion charger. Also, it's lighter and slimer that you can easily carry it around, even on airplanes.At KUULAA, we use only the highest-grade materials, so we do have the confidence to provide industry-leading service of 2 years warranty"
+    },
+    {
+        "productName": "Baseus Power Bank",
+        "productPrice": 450000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FBaseus%20Power%20Bank.jpg?alt=media&token=5316a0fd-e6fe-4a72-b28d-aeca31ee6be1",
+        "productDes": "Baseus 30000mAh large capacity portable charger can supply almost 10 days of power, which can charge iPhone 10 times, Samsung Galaxy 9.5 times, Huawei 7 times, iPad Mini 4 times, or an iPad Pro for 1.5 times. Don't worry about hurricane season or your business trip or other outdoor activities needs."
+    },
+    {
+        "productName": "YHO Power Bank",
+        "productPrice": 800000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FYHO%20Power%20Bank.jpg?alt=media&token=dddb9f64-1e17-49f4-b720-af145ed9cda4",
+        "productDes": "The 26800mAh Capacity can charge most smart phones over 6 times or a tablet 2+ times .Widely compatible with iPhone, iPad, Air-pods, Samsung, most other Phones, Tablets and other USB compatible devices, and Bluetooth devices. "
+    },
+    {
+        "productName": "Woisco Power Bank",
+        "productPrice": 1000000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FWoisco%20Power%20Bank.jpg?alt=media&token=71aeaaae-a3fe-4b98-aaef-a60b81578f67",
+        "productDes": "Powerful 18W PD and QC output for exhilarating charging speeds; bring your iPhone 13 Pro Max back to 50% in as quick as 40 minutes. Step into the upper echelon of battery capacity with 20,000mAh, fully capable of recharging your phone or tablet several times"
+    },
+    {
+        "productName": "RapidX Power Bank",
+        "productPrice": 1500000,
+        "productThumb": "https://firebasestorage.googleapis.com/v0/b/fir-2e248.appspot.com/o/PowerBank%2FRapidX%20Power%20Bank.jpg?alt=media&token=36a0146d-0bbf-46ef-af99-e2f86e0b95f7",
+        "productDes": "7.5W Wireless Charging for iPhone 12 & 13 series. Snaps to the back of iPhone 12 & 13 series, works with MagSafe phone cases. Supports pass through charging- charge your phone and power bank at the same time. Not compatible with Non MagSafe Cases; Use MagSafe or Magnetic Cases for a better hold"
+    }
+]

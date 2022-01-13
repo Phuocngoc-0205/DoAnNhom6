@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+header {
+    background-color: #F4F1EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 6%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    line-height: 60px;
+}
+
+header .logo {
+    color: black;
+    font-size: 24px;
+    font-family: 'Spectral', serif;
+}
+
+header .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header .nav-bar a {
+    margin: 0 2rem;
+    font-size: 14px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+header .nav-bar a:hover {
+    color: coral;
+    padding-bottom: .5rem;
+}
+
+.nav-bar .dropdown {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    height: max-content;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar .dropdown a {
+    float: none;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    margin: 0;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.nav-bar div:hover .dropdown {
+    display: block;
+}
+
+header .icons div {
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 2rem;
+}
+
+header .icons a {
+    color: black;
+}
+
+header .icons div:hover {
+    color: coral;
+}
+
+#bars-btn {
+    display: none;
+}
+header .search-engine{
+    position: absolute;
+    top: 115%;
+    right: 5%;
+    transform: scaleY(0);
+    transform-origin: top;
+    display: flex;
+    flex-direction: column;
+}
+header .search-engine.active{
+    transform: scaleY(1);
+}
+/* Form tìm kiếm */
+header .search-form {
+    position: relative;
+    right: 0;
+    background-color: black;
+    width: 45rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+
+}
+
+/* header .search-form.active {
+    
+} */
+
+header .search-form input {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    text-transform: none;
+}
+
+header .search-form label {
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 1.5rem;
+    color: white;
+}
+
+header .search-form label:hover {
+    color: coral;
+}
+/* Kết quả tìm kiếm */
+.search-results{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.search-results-item{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.search-results-item img{
+    width: 20%;
+    height: 100%;
+    object-fit: contain;
+}
+.search-results-item .search-item {
+    padding-left: 20px;
+    height: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+.search-item h3{
+    line-height: 30px;
+}
+.search-item p{
+    line-height: 20px;
+}
+/* Form đăng nhập */
+header .signin-form {
+    position: absolute;
+    top: 100%;
+    right: 14%;
+    background-color: white;
+    min-width: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px 0px rgba(155, 153, 153, 0.2);
+    padding: 0 10px;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+header .signin-form.active {
+    transform: scaleY(1);
+}
+
+header .signin-form h4 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+header .signin-form p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    color: #677279;
+    line-height: 20px;
+}
+
+header .signin-form input {
+    line-height: 42px;
+    padding-left: 10px;
+    border: 1px solid black;
+    margin: 5px 0;
+    width: 90%;
+}
+
+header .signin-form .signin {
+    background-color: #b5bdbd;
+    color: white;
+    border: none;
+}
+
+header .signin-form div {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    color: #677279;
+    line-height: 30px;
+}
+
+
+
+@media (max-width: 1200px) {
+    header {
+        padding: 1.5rem 2rem;
+        line-height: 0;
+    }
+    header .logo {
+        font-size: 20px;
+    }
+    #bars-btn {
+        display: inline-block;
+        font-size: 18px;
+    }
+    #search-btn,
+    #cart-btn,
+    #accounts-btn {
+        font-size: 18px;
+    }
+    header .nav-bar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #F4F1EC;
+        width: 100%;
+        height: calc(100vh - 1rem);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    header .nav-bar.active {
+        right: 0;
+    }
+    header .nav-bar a {
+        color: black;
+        display: block;
+        margin: 1.5rem;
+        padding: .5rem;
+        font-size: 16px;
+    }
+    header .search-form {
+        width: 100%;
+        right: 2rem;
+    }
+    .nav-bar .dropdown {
+        box-shadow: none;
+        position: relative;
+        min-width: 100rem;
+    }
+    header .nav-bar .dropdown a {
+        line-height: 30px;
+        padding-left: 10px;
+        margin: 1.5rem;
+    }
+    header .signin-form {
+        right: -100%;
+        background: #F4F1EC;
+        width: 100%;
+        height: calc(100vh - 1rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+    header .signin-form.active {
+        right: 0;
+    }
+    header .signin-form h4{
+        line-height: 0;
+        margin-top: 0;
+    }
+    header .signin-form p {
+        line-height: 50px;
+    }
+    .search-results{
+        right: 9.2%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1.5rem;
+    }
+    header .logo {
+        font-size: 14px;
+    }
+    #bars-btn {
+        display: inline-block;
+        font-size: 12px;
+    }
+    #search-btn,
+    #cart-btn,
+    #accounts-btn {
+        font-size: 12px;
+    }
+}

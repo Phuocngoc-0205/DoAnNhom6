@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+
+    <!-- File css -->
+    <link href="/css/shopcart.css" rel="stylesheet">
+</head>
+<body onload="TotalAmount()">
+    <header id="header"></header>
+
+    <main>
+        <h1 style="text-align: center; margin-top: 80px;">SHOPPING CART</h1>
+        <div class="cartcontainer">
+            <div class="cartcontainer-item1">
+                <div class="cart-title">
+                    <div class="title-product">Product</div>
+                    <div class="title-type">Type</div>
+                    <div class="title-amount">Amount</div>
+                    <div class="title-price">Price</div>
+                </div>
+                <div class="product-container" id="cart">
+                    <!-- <div class="cart-product">
+                        <div class="name-image">
+                            <img src="/img/airpods.jpg">
+                            <h5>CHOOCOLATE CASE</h5>
+                        </div>
+                        <div class="product-type">Iphone 13 pro max</div>
+                        <div class="product-amount">
+                            <form action="">
+                                <input type="number" name="amout" id="" class="form-control" min="0" value="1">
+                            </form>
+                        </div>
+                        <div class="product-price">
+                            <div>$50.00</div>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+            <div class="cartcontainer-item2">
+                <div class="orderdetails">Summary<hr></div>
+                <div class="subtotal">Sub total:</div>
+                <div class="subtotalnum">$50.00</div>
+                <div class="shipcost">Shipping cost:</div>
+                <div class="shipcostnum">Free</div>
+                <div class="promocode">Add promocode</div>
+                <div class="promocodenum">BF14</div>
+                <div class="total"><hr>Total</div>
+                <div id="totalnum" class="totalnum"><hr></div>
+                <div class="check-cont">
+                    <button type="button" class="checkout"><a href="/src/shipinfo.html" >CHECK OUT</a></button>
+                    <button type="button" class="continueshop"><a href="/index.html">CONTINUE SHOPPING</a></button>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script>
+        // get data from the database
+        var cartInfo = localStorage.getItem('cart');
+        // put into array
+        var itemArr = JSON.parse(cartInfo);
+        console.log(itemArr)
+        // create div for each product
+        itemArr.forEach(element => {
+            var model = `
+            <div class="cart-product">
+                <div class="name-image">
+                    <img src=${element.productThumb}>
+                    <h5>${element.productName}</h5>
+                </div>
+                <div class="product-type">Iphone 13 pro max</div>
+                <div class="product-amount">
+                    <form action="">
+                        <input type="number" name="amout" id="" class="form-control" min="0" value= ${element.amount}>
+                    </form>
+                </div>
+                <div class="product-price">
+                    <div id="totalnumber" data-price="${element.productPrice} data-name="${element.productName}">
+                            ${element.amount * element.productPrice}
+                    </div>
+                </div>
+                <button onclick="RemoveItem('${element.productName}')">Xóa</button>
+            </div>
+            `
+            cart = document.querySelector("#cart");
+            cart.innerHTML += model;
+
+        });
+        document.addEventListener('input', e => {
+            const t = e.target;
+            if (t.matches('input[type="number"]'))
+            {
+                const p = t.parentNode.parentNode.nextElementSibling.firstElementChild;
+                price= parseInt(p.dataset.price);
+                count=t.valueAsNumber;
+                p.innerHTML=price*count;
+
+            }
+        })
+
+
+        function TotalAmount(){
+            // var number=document.getElementById("totalnumber").innerText;
+            // console.log(number);
+            // var total = document.querySelector('#totalnum').innerText;
+            // total +=number;
+            // console.log(total);
+            // document.getElementById('totalnum').innerText=total
+            
+            var carts=JSON.parse(localStorage.getItem('cart'));
+            var total=0;
+            for(var i=0;i<carts.length;i++){
+                total+=carts[i].amount*carts[i].productPrice;
+                console.log(total)
+            }
+            document.getElementById('totalnum').innerText=total
+        }
+
+        function RemoveItem(productName){
+            var carts=JSON.parse(localStorage.getItem('cart'));
+            var selectedItem=carts.findIndex(item => item.productName === productName)
+            carts.splice(selectedItem,1);
+            // if(carts.findIndex(element=> element.productName === productName )!==-1)
+            // {
+            //     return
+            // }
+            // else
+            // {
+            //     carts.delete(selectedItem);
+            // }
+            localStorage.setItem('cart',JSON.stringify(carts));
+        }
+        // show it
+    </script>
+
+<script>
+    $(function(){
+        $('#header').load('nav.html');
+    })
+</script>
+
+    <!-- <script>
+        function addCart(){
+            console.log(localStorage.getItem('product'))
+            var cartTable = document.querySelector('.cartproduct')
+            console.log(cartTable)
+            const item=localStorage.getItem('product')
+            var currentHtml = cartTable.innerHTML;
+            currentHtml += item;
+            cartTable.innerHTML=currentHtml
+
+
+            const item=localStorage.getItem('product')
+            console.log(item);
+        }
+    </script> -->
+</body>
+</html>

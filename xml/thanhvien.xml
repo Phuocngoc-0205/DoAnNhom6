@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <thanhvien>
+        <hinh>/img/minhanh.jpg</hinh>
+        <hoTen>Vũ Lê Minh Anh</hoTen>
+        <mssv>K194111599</mssv>
+        <moTa>Mình hiện đang là sinh viên của lớp K19411C trường Đại học Kinh tế - Luật. Mình là một người khá hòa đồng và vui vẻ với tất cả mọi người. Sở thích của mình là được tham gia các hoạt động xã hội để mở rộng giao tiếp với mọi người xung quanh. </moTa>
+    </thanhvien>
+    <thanhvien>
+        <hinh>/img/thaonguyen.jpg</hinh>
+        <hoTen>Uông Thảo Nguyên</hoTen>
+        <mssv>K194111618</mssv>
+        <moTa>Mình đang là sinh viên lớp K19411C tại trường Đại học Kinh tế - Luật. Mình đến từ xứ sở thanh long đầy nắng - Bình Thuận. Mình mong muốn học hỏi thêm nhiều kiến thức tư duy thiết kế giao diện và phân tích dữ liệu kinh doanh. Ngoài giờ đến lớp, mình rất thích nghe nhạc và đọc sách. </moTa>
+    </thanhvien>
+    <thanhvien>
+        <hinh>/img/phuocngoc.jpg</hinh>
+        <hoTen>Tống Thị Phước Ngọc</hoTen>
+        <mssv>K194111616</mssv>
+        <moTa>Mình là sinh viên lớp K19411C tại trường Đại học Kinh tế - Luật. Mình rất thích tìm hiểu về ngôn ngữ HTML và lập trình website. Ngoài những giờ học tập căng thẳng, mình thích nghe nhạc ballad và RB. Đi du lịch để khám phá thêm nhiều điều mới lạ cũng là niềm yêu thích của mình.</moTa>
+    </thanhvien>
+    <thanhvien>
+        <hinh>/img/mylinh.jpg</hinh>
+        <hoTen>Trần Thị Mỹ Linh</hoTen>
+        <mssv>K194111611</mssv>
+        <moTa>Mình hiện đang là sinh viên lớp K19411C trường Đại học Kinh tế - Luật. Mình đến từ vùng đất của hạt điều -  Bình Phước. Mình là một người "nghiện" du lịch đúng nghĩa. Mình và đám bạn của mình rất thích đi phượt và khám phá những vùng đất mới của đất nước. </moTa>
+    </thanhvien>
+</root>

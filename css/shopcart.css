@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    /* margin: 0;
+    padding: 0; */
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.cartcontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.cartcontainer-item1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.cart-title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}
+.title-product{
+    width: 40%;
+}
+.title-type, .title-amount{
+    width: 20%;
+    text-align: center;
+}
+.title-price{
+    width: 10%;
+    text-align: center;
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
+}
+.cart-product{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+.name-image{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* justify-content: center; */
+}
+.name-image img{
+    width: 80px;
+    height: 90px;
+    object-fit: cover;
+    /* margin-right: 10px; */
+}
+.name-image h5{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.product-type{
+    width: 20%;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.product-amount{
+    width: 20%;
+    text-align: center;
+}
+.product-amount input{
+    border: none;
+    width: 40px;
+    height: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.product-price{
+    width: 20%;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.cartcontainer-item2{
+    /* border: 2px solid black; */
+    background-color: #F4F1EC;
+    width: 30%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 243px auto;
+    grid-template-rows: 40px 40px 40px 60px 40px 50px;
+}
+.orderdetails{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.subtotal,.subtotalnum{
+    padding: 10px 0;
+}
+.total, .totalnum{
+    padding-right: 10px;
+}
+.subtotal, .shipcost, .promocode, .total{
+    padding-left: 10px;
+}
+.orderdetails, .check-cont{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.orderdetails, .total, .totalnum{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.subtotal, .subtotalnum, .shipcost, .shipcostnum, .promocode, .promocodenum{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.check-cont{
+    text-align: center;
+    padding-top: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.check-cont .checkout{
+    border: none;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.check-cont .checkout a{
+    color: white;
+    width: 100%;
+}
+
+.check-cont .continueshop{
+    border: 2px solid black;
+    padding: 10px 2px;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.check-cont .continueshop a{
+    color: black;
+    width: 100%;
+}
+
+@media(max-width: 1025px) {
+    .cartcontainer-item1{
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+    }
+    .cartcontainer-item2 {
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+@media(max-width: 600px) {
+    .cart-product{
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .name-image{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+}

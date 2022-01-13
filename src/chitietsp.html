@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="/css/chitietsp.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Roboto:ital,wght@0,100;1,100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
+    </style>
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <header id="header"></header>
+    <!-----Main-->
+    <main>
+        <!----Single product details-->
+        <div class="small-container single-product">
+           <div class="row">
+               <div class="col-2">
+                   <img id="image" src="" width="100%" >
+                   <div class="small-img-row">
+                       <div class="small-img-col">
+                           <img id="image1" src="" width="100%" class="small-img">
+                       </div>
+                       <div class="small-img-col">
+                           <img src="/img/drop_protection.JPG" width="100%" class="small-img">
+                       </div>
+                       <div class="small-img-col">
+                           <img src="/img/quality.jpg" width="100%" class="small-img">
+                       </div>
+                       <div class="small-img-col">
+                           <img src="/img/detailsimage.jpg" width="100%" class="small-img">
+                       </div>
+                   </div>
+               </div>
+   
+               <div class="col-2">        
+                   <h1 id="name"></h1>
+                   <h4 id="price"></h4>
+                   <hr>
+                   <br><br>
+                   <br><br>
+                   <hr>
+   
+                   <select style="border: 1px solid black;border-radius: 5px;">
+                       <option>Select your devices</option>
+                       <option>iPhone 7 Plus</option>
+                       <option>iPhone 8 Plus</option>
+                       <option>iPhone XS</option>
+                       <option>iPhone XS Max</option>
+                       <option>iPhone XS Max</option>
+                       <option>iPhone 11</option>
+                       <option>iPhone 11 Pro</option>
+                       <option>iPhone 11 Pro Max</option>
+                       <option>iPhone 12</option>
+                       <option>iPhone 12 Pro</option>
+                       <option>iPhone 12 Pro Max</option>
+                       <option>iPhone 13</option>
+                       <option>iPhone 13 Pro</option>
+                       <option>iPhone 13 Pro Max</option>
+                   </select>
+                   <br>
+                   <hr>
+   
+                   <br>
+                   <div class ="card">
+                       <br>
+                       <input type="number" value="1" id="amount">
+                       <!-- <button onclick="decrement()">-</button>
+                       <h2 id="root"></h2>
+                       <button onclick="increment()">+</button> -->
+                   </div>
+                   <br>
+                   <hr>
+                   <!-- <input type="number" value="1"> -->
+                    <a class="btn">ADD TO BASKET</a>
+                   <h3>Product Information<i class="fa fa-ident"></i> </h3>
+                   <br>
+                   <p id="des"></p>
+   
+               </div>
+               
+   
+    </main>
+        <!-------title--------->
+    <div class="small-container">
+        <h2>You may also like</h2>
+    </div>
+    <div class="image-slider">
+        <div class="image-item">
+            <div class="image">
+                <img src="/img/bestseller2.jpg" alt="">
+            </div>
+            <h3 class="image-title">Cream Case</h3>
+            <h3 class="image-sub">120000 VND</h3>
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="/img/bestsellerairp.jpg" alt="">
+            </div>
+            <h3 class="image-title">DORAEMON CASE</h3>
+            <h3 class="image-sub">150000 VND</h3>
+
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="/img/bestsellerip.jpg" alt="">
+            </div>
+            <h3 class="image-title">NIKE CASE</h3>
+            <h3 class="image-sub">100000 VND</h3>
+
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="/img/bestsellerpop.jpg" alt="">
+            </div>
+            <h3 class="image-title">BEAR CASE</h3>
+            <h3 class="image-sub">130000 VND</h3>
+
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="/img/bestseller6.jpg" alt="">
+            </div>
+            <h3 class="image-title">YOGA CASE</h3>
+            <h3 class="image-sub">120000 VND</h3>
+
+        </div>
+    </div>
+            
+    <!----Newsletter-->
+        <div style="background-color: #EEE3D9; padding: 10px;">
+            <div style="color: black; font-family: 'Times New Roman', Times, serif; margin-left: 29px;margin-top: 14px; font-size: 36px;"><b>Newsletter</b></div>
+            <div style="color: black; font-family: 'Open Sans', sans-serif;; text-align: center; margin-top: 10px; font-size: 19px;">JOIN WITH</div>
+            <div style="color: black; font-family: 'Times New Roman', Times, serif; text-align: center; margin-top: 5px; font-size: 25px;"><b>FUKI</b></div>
+            <div style="color: black; font-family: 'Roboto';text-align: center; margin-top: 20px; font-size: 18px;">To get exclusive online offers and our latest products news</div>
+            <div style="text-align: center; margin-top: 15px; padding: 20px;">
+            <input type="text" style="height: 40px; width: 250px; border: none; color: black; text-align: center;" value="Enter your email">
+            <button type="button" style="height: 40px; width: 120px; background-color: black; color: white; border: none;border-radius: 0%; margin-left: -10px; font-size: 12px; font-family: 'Roboto';">JOIN</button>
+        </div>
+    </div>
+       <footer id="footer"></footer>
+    <!----------script for product gallery---------->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/details.js"></script>
+
+    <script>
+    // var data = 0;
+    // document.getElementById("root").innerHTML = data;
+    // function decrement(){
+    //     if(data > 0)
+    //     {
+    //         data = data - 1;
+    //         document.getElementById("root").innerText = data;
+    //     }
+        
+    // }
+    // function increment(){
+    //     data = data + 1;
+    //     document.getElementById("root").innerText = data;
+    // }
+
+
+    let sp = JSON.parse(localStorage.getItem("data"));
+        document.getElementById("image").src = sp.productThumb;
+        document.getElementById("image1").src = sp.productThumb;
+        document.getElementById("price").innerHTML = sp.productPrice +" VND";
+        document.getElementById("name").innerHTML = sp.productName;
+        document.getElementById("des").innerHTML = sp.productDes;
+    
+    var ProductImg = document.getElementById("image");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function()
+    {
+        ProductImg.src= SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function()
+    {
+        ProductImg.src= SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function()
+    {
+        ProductImg.src= SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function()
+    {
+        ProductImg.src= SmallImg[3].src;
+    }
+
+
+    const addToCart = document.querySelector('.btn');
+        addToCart.addEventListener('click', addToCartHandler);
+        function addToCartHandler(e) {
+            e.preventDefault();
+            var itemArr;
+
+            tempString = localStorage.getItem('cart');
+            console.log(localStorage);
+            if (tempString === null)
+                itemArr = []
+            else
+                itemArr = JSON.parse(tempString);
+            var selectedItem=sp;
+            var amount=document.querySelector('#amount').valueAsNumber;
+            // console.log('sph',selectedItem);
+            selectedItem={
+                ...selectedItem,
+                "amount":amount
+            }
+            addItem(itemArr,selectedItem);
+            location.href='shoppingcart.html';
+            console.log('sph:add ',itemArr);
+        }
+
+        function addItem(itemArr,selectedItem) {
+            if(itemArr.findIndex(element=> element.productName ===selectedItem.productName )!==-1)
+            {
+                item=itemArr.find(element=> element.productName ===selectedItem.productName );
+                item.amount+=selectedItem.amount;
+            }
+            else
+            {
+                itemArr.push(selectedItem);
+            }
+            localStorage.setItem('cart',JSON.stringify(itemArr));
+        }
+   </script>
+
+    <!-- <script>
+        const addCart=document.querySelectorAll('.btn');
+        addCart.forEach(function(a, index){
+            a.addEventListener("click", function(event){
+                var btnItem = event.target
+                var product = btnItem.parentElement.parentElement
+                var img=product.querySelector('#image').src;
+                var prname=product.querySelectorAll('#name').innerText;
+                var prprice=product.querySelector('#price').innerText;
+                var addtr=document.createElement("tr");
+                var cartItem = document.querySelectorAll('.shoppingcart')
+                for(var i = 0; i < cartItem.length; i++)
+                {
+                    var productT=document.querySelectorAll(".title")
+                    if(productT[i].innerHTML==productName){
+                        alert("Sản phẩm đã có trong giỏ hàng!")
+                        return
+                    }
+                }
+                var trContent = '<tr><td><div><img src="'+img+'" alt=""></div><div><h6>'+prname+'</h6><h5>'+prprice+'</h5></div></td></tr>'
+                addtr.innerHTML = trContent;
+                let htmls = "<tr>" +trContent+ "</tr>"
+                console.log(localStorage.getItem('product'))
+                if(localStorage.getItem('product')!= null){
+                    var current = localStorage.getItem('product');
+                    htmls=current + htmls;
+                }
+                localStorage.setItem('product', htmls)
+                alert("Đã thêm sản phẩm vào giỏ hàng")
+                location.href="/src/shoppingcart.html";
+                
+            });
+        });
+        
+    </script> -->
+    <script>
+            $(function(){
+                $('#header').load('nav.html');
+            })
+            $(function(){
+                $('#footer').load('footer.html');
+            })
+    </script>
+</body>
+
+</html>

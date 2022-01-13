@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- header -->
+    <!-- <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- footer -->
+    <!-- <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+
+    <!-- Script tái sử dụng code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- File css -->
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Cables Accessories</title>
+
+</head>
+
+<body>
+    <!-- <header>
+        <a href="#" class="logo">FUKI ACCESSORIES</a>
+        <div class="nav-bar">
+            <div><a href="#">HOME</a></div>
+            <div><a href="#">CASE</a>
+                <div class="dropdown">
+                    <a href="#">IPHONE CASE</a>
+                    <a href="#">AIRPODS CASE</a>
+                    <a href="#">IPAD CASE</a>
+                    <a href="#">MACBOOK CASE</a>
+                </div>
+            </div>
+            <div><a href="#">ACCESSORIES</a>
+                <div class="dropdown">
+                    <a href="#">CABLES</a>
+                    <a href="#">CHARGER</a>
+                    <a href="#">POWER BANK</a>
+                    <a href="#">OTHERS</a>
+                </div>
+            </div>
+            <div><a href="#">COLLECTION</a>
+                <div class="dropdown">
+                    <a href="#">NEW ARRIVALS</a>
+                    <a href="#">BEST SELLER</a>
+                    <a href="#">SALE OFF</a>
+                </div>
+            </div>
+            <div><a href="#">ABOUT US</a></div>
+        </div>
+        <div class="icons">
+            <div id="cart-btn" class="fa fa-shopping-bag">
+                </a>
+            </div>
+            <div id="search-btn" class="fa fa-search"></div>
+            <div id="bars-btn" class="fa fa-bars"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search bars....">
+            <label for="search-box" class="fa fa-search"></label>
+        </div>
+        <script>
+            let navbar = document.querySelector('.nav-bar');
+            document.querySelector('#bars-btn').onclick = () => {
+                navbar.classList.toggle('active')
+            }
+            let searchForm = document.querySelector('.search-form');
+            document.querySelector('#search-btn').onclick = () => {
+                    searchForm.classList.toggle('active')
+                }
+                // document.querySelector('#cart-btn').onclick = () => {
+                //     location.href = "iphonecase.html"
+                // }
+        </script>
+    </header> -->
+    <header id="header"></header>
+    <main>
+        <!-- Banner đầu trang -->
+        <div class="banner">
+            <img src="/img/cableaccessbanner.png" />
+        </div>
+
+        <!-- Bộ lọc -->
+        <div class="filter">
+            <span>Sort by: </span>
+            <select onchange="handlesort()" id="sort" style="font-family:'Manrope', sans-serif">
+                <option selected="selected" value="1">Sort</option>
+                <option value="2">Price: Low to High</option>
+                <option value="3">Price: High to Low</option>
+            </select>
+        </div>
+
+        <!-- Danh sách sản phẩm -->
+        <div class="product">
+            <div class="row" id="listProduct">
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div style="background-color: #EEE3D9; padding: 10px; position: relative;">
+            <div style="color: black; font-family: 'Times New Roman', Times, serif; margin-left: 29px;margin-top: 14px; font-size: 36px;"><b>Newsletter</b></div>
+            <div style="color: black; font-family: 'Open Sans', sans-serif;; text-align: center; margin-top: 10px; font-size: 19px;">JOIN WITH</div>
+            <div style="color: black; font-family: 'Times New Roman', Times, serif; text-align: center; margin-top: 5px; font-size: 25px;"><b>FUKI</b></div>
+            <div style="color: black; font-family: 'Roboto';text-align: center; margin-top: 20px; font-size: 18px;">To get exclusive online offers and our latest products news</div>
+            <div style="text-align: center; margin-top: 15px; padding: 20px;">
+                <input type="text" style="height: 40px; width: 250px; border: none; color: black; text-align: center;" placeholder="Enter your email">
+                <button type="button" style="height: 40px; width: 120px; background-color: black; color: white; border: none; margin-left: -10px; font-size: 12px; font-family: 'Roboto';">JOIN</button>
+            </div>
+        </div>
+    </main>
+    <!-- <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4 style="font-size: 30px;">FUKI ACCESSORIES</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4 style="font-size: 24px;">CONTACT</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Based in Sai Gon</a></li>
+                        <li><a href="#"><i class="far fa-clock"></i> 9AM - 10PM</a></li>
+                        <li><a href="#"><i class="fas fa-phone-alt"></i> 090 888 9999</a></li>
+                        <li><a href="#"><i class="far fa-envelope"></i> fukiaccessroies@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 style="font-size: 24px;">FOLLOW US</h4>
+
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <footer id="footer"></footer>
+
+    <script>
+        //Load dữ liệu từ file json
+        var xmlHttp = new XMLHttpRequest();
+        var html = "";
+        var i;
+        var url = "/json/db.json";
+        let myArr;
+        xmlHttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                // var myArr = JSON.parse(this.responseText);
+                myArr = JSON.parse(this.responseText);
+                loadData(myArr.cables);
+            }
+        }
+        xmlHttp.open("GET", url, true);
+        xmlHttp.send();
+
+        //Load dữ liệu json lên trang
+        function loadData(arr) {
+            html = "<div class='product'><div class='row'>";
+            for (i = 0; i < arr.length; i++) {
+                var sp = arr;
+                html += "<div class='product-col' onclick=details(" + i + ")><img id='img' src='" + sp[i].productThumb + "'/><h3 id='name'>" + sp[i].productName + "</h3><p id='price'>" + sp[i].productPrice + "</p></div>";
+            }
+            html += "</div></div>";
+            document.getElementById("listProduct").innerHTML = html;
+        }
+
+        //Sự kiện bấm vào sản phẩm ra chi tiết sp
+        function details(i) {
+            var sp = myArr.cables[i];
+            localStorage.setItem("data", JSON.stringify(sp));
+            location.href = "/src/chitietsp.html";
+        }
+
+        //Chức năng lọc sản phẩm
+        function handlesort(){
+            var sort = document.getElementById("sort");
+            var optionsort=sort.value;
+            console.log(optionsort);
+            if(optionsort == 1){
+                
+            }else if(optionsort == 2){
+                var sp = myArr.cables.sort(function(a,b){
+                    //Cao xuống thấp a<b, thấp lên cao a>b
+                    // if(a.productPrice>b.productPrice)
+                    // return 1;
+                    // else
+                    // return -1;
+                    return a.productPrice - b.productPrice;
+                });
+            loadData(sp);
+            }else if(optionsort == 3){
+            var sp = myArr.cables.sort(function(a,b){
+                    //Cao xuống thấp a<b, thấp lên cao a>b
+                    // if(a.productPrice<b.productPrice)
+                    // return 1;
+                    // else
+                    // return -1;
+                    return b.productPrice - a.productPrice;
+                });
+            }
+            loadData(sp);
+        }
+    </script>
+
+    <!-- Script tái sử dụng code -->
+    <script>
+        $(function(){
+            $('#header').load('nav.html');
+        })
+        $(function(){
+            $('#footer').load('footer.html');
+        })
+    </script>
+</body>
+
+</html>

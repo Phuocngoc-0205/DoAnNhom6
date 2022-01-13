@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+.signup-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin: 70px 20px 20px 30px;
+}
+.signup-container .signup-item{
+    height: 100vh;
+    width: 45%;
+}
+.signup-item.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-item.item1 h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+.signup-item.item1 hr{
+    width: 60px;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+.signup-item.item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.signup-item.item2 label{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.signup-item.item2 input:not(:last-child) {
+    height: 40px;
+    width: 50%;
+    border: none;
+    background-color: #EDEDED;
+    padding-left: 20px;
+}
+.signup-item.item2 input:last-child{
+    height: 40px;
+    width: 20%;
+    margin: 30px 0;
+    color: white;
+    /* background-color: #b5bdbd; */
+    background: linear-gradient(to right, #b5bdbd, #b5bdbd);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: background-size 1s 0s;
+    border: none;
+}
+.signup-item.item2 input:last-child:hover{
+    background-color: white;
+    color: black;
+    background-size: 0 100%;
+}
+
+@media(max-width:786px) {
+    .signup-container{
+        margin: 70px 0 0 0;
+    }
+    .signup-container .signup-item{
+        width: 100%;
+    }
+    .signup-container .signup-item.item1{
+        height: 100px;
+    }
+    .signup-item.item2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .signup-item.item2 label{
+        display: none;
+    }
+    .signup-item.item2 input:not(:last-child){
+        width: 90%;
+        margin: 10px 0;
+    }
+    .signup-item.item2 input:last-child{
+    width: 50%;
+    }
+}

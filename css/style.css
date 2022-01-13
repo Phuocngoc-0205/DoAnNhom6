@@ -1,0 +1,115 @@
+/* Thêm thư viện cho font chữ */
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* css dành cho tiêu đề collection */
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.title h3 {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 64px;
+}
+
+.title p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.banner img {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.filter {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    padding-right: 40px;
+    float: right;
+    font-size: 16px;
+}
+
+.filter option {
+    font-family: 'Manrope', sans-serif;
+}
+
+.product {
+    padding-left: 25px;
+    padding-right: 25px;
+    clear: right;
+    padding-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-col {
+    flex-basis: 20%;
+    min-width: 250px;
+    padding-top: 40px;
+    height: 375px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-col img {
+    height: 90%;
+    width: 80%;
+    object-fit: contain;
+}
+
+.product-col:hover img {
+    cursor: pointer;
+    opacity: 0.6;
+    transform: translateY();
+}
+
+.product-col p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    margin: 0px;
+}
+
+.product-col h3 {
+    font-size: 22px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    margin: 0px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+    .title h3 {
+        font-size: 45px;
+    }
+    .title p {
+        font-size: 12px;
+    }
+}

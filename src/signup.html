@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Script tái sử dụng code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+
+    <!-- File css -->
+    <link rel="stylesheet" href="/css/signup.css">
+    <title>Sign Up</title>
+    <!-- Header -->
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- <header id="header"></header> -->
+    <header>
+        <a href="#" class="logo">FUKI ACCESSORIES</a>
+        <div class="nav-bar">
+            <div><a href="/index.html">HOME</a></div>
+            <div><a href="#">CASE</a>
+                <div class="dropdown">
+                    <a href="/src/iphonecase.html">IPHONE CASE</a>
+                    <a href="/src/airpodscase.html">AIRPODS CASE</a>
+                    <a href="/src/ipadcase.html">IPAD CASE</a>
+                    <a href="/src/macbookcase.html">MACBOOK CASE</a>
+                </div>
+            </div>
+            <div><a href="#">ACCESSORIES</a>
+                <div class="dropdown">
+                    <a href="/src/cables.html">CABLES</a>
+                    <a href="/src/charger.html">CHARGER</a>
+                    <a href="/src/powerbank.html">POWER BANK</a>
+                    <a href="/src/others.html">OTHERS</a>
+                </div>
+            </div>
+            <div><a href="#">COLLECTION</a>
+                <div class="dropdown">
+                    <a href="/src/newarrivals.html">NEW ARRIVALS</a>
+                    <a href="/src/bestseller.html">BEST SELLER</a>
+                    <a href="/src/saleoff.html">SALE OFF</a>
+                </div>
+            </div>
+            <div><a href="/src/aboutus.html">ABOUT US</a></div>
+        </div>
+        <div class="icons">
+            <div id="accounts-btn" class="fa fa-user"></div>
+            <div id="cart-btn" class="fa fa-shopping-bag"></div>
+            <div id="search-btn" class="fa fa-search"></div>
+            <div id="bars-btn" class="fa fa-bars"></div>
+        </div>
+        <div class="search-engine">
+            <div class="search-form">
+                <input class="searchbar" type="search" id="search-box" placeholder="Search bars....">
+                <label for="search-box" class="fa fa-search" onclick="getResults()" ></label>
+            </div>
+            <div class="search-results">
+                <!-- <div class="search-results-item">
+                    <img src="/img/airpods.jpg">
+                    <div class="search-item">
+                        <h3>AIRPODS</h3>
+                        <p>2000000</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="signin-form">
+            <h4>LOG IN TO YOUR ACCOUNT</h4>
+            <p>Enter your email and password</p>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="pwd" placeholder="Password" required>
+            <input class="signin" type="submit" value="LOG IN" id="Login" onclick="Login()">
+            <div>A new customer? <a href="/src/signup.html" id="signup-btn">Create account</a></div>
+            <div>Forgot password? <a href="#">Password recovery</a></div>
+        </div>
+        <script>
+            let navbar = document.querySelector('.nav-bar');
+            document.querySelector('#bars-btn').onclick = () => {
+                navbar.classList.toggle('active')
+            }
+            let searchForm = document.querySelector('.search-engine');
+            document.querySelector('#search-btn').onclick = () => {
+                searchForm.classList.toggle('active')
+            }
+            let signinform = document.querySelector('.signin-form');
+            document.querySelector('#accounts-btn').onclick = () => {
+                signinform.classList.toggle('active')
+            }
+        </script>
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"; 
+            import { getDatabase, set, ref, update} from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"; 
+            import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+            const firebaseConfig = { 
+                apiKey: "AIzaSyDVNKxEeXlhV1ZPlE61DYi82Y7DfnXMEXc", 
+                authDomain: "authentication-web-9737c.firebaseapp.com", 
+                databaseURL: "https://authentication-web-9737c-default-rtdb.firebaseio.com", 
+                projectId: "authentication-web-9737c",
+                storageBucket: "authentication-web-9737c.appspot.com", 
+                messagingSenderId: "948949383038", 
+                appId: "1:948949383038:web:e4030ff68793b80ab9252f" }; 
+                const app = initializeApp(firebaseConfig); 
+                const database=getDatabase(app); 
+                const auth = getAuth();
+            Login.addEventListener('click',(e) => {
+                var email=document.getElementById("email").value; 
+                var password=document.getElementById("pwd").value; 
+                signInWithEmailAndPassword(auth, email, password)
+                .then((userCredential) => {
+                // Signed in 
+                const user = userCredential.user;
+    
+                const dt = new Date();
+                update(ref(database, 'users/' + user.uid),{
+                        last_login: dt,
+                    })
+                    alert('User loged in!');
+                    location.href="/index.html";
+        // ...
+                 })
+                .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                alert(errorMessage);
+                    });
+            });
+        </script>
+        <script>
+            var xmlHttp = new XMLHttpRequest();
+            var url = "/json/searchdb.json";
+            let myArr;
+            xmlHttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    myArr = JSON.parse(this.responseText);
+                }
+            }
+            xmlHttp.open("GET", url, true);
+            xmlHttp.send();
+            //Công cụ tìm kiếm:
+            function selectElement(selector){
+            return document.querySelector(selector);
+            }
+            function clearResults(){
+                selectElement('.search-results').innerHTML= " " ;
+            }
+    
+            function getResults(){
+            const search = selectElement('.searchbar').value;
+    
+            clearResults();
+    
+            if(search.length>0)
+            {
+                for(let i = 0; i < myArr.length; i++)
+                {
+                if(myArr[i].productName.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+    
+                ){
+                    selectElement('.search-results').innerHTML += '<div class="search-results-item"><img src="'+myArr[i].productThumb+'""><div class="search-item"><h3>'+myArr[i].productName+'</h3><p>'+myArr[i].productPrice+'</p></div></div>';
+                }
+                }
+            }
+            }
+        selectElement('.searchbar').addEventListener('keyup',getResults);
+        </script>
+    </header>
+    <main>
+        <div class="signup-container">
+            <div class="signup-item item1">
+                <h2>CREATE ACCOUNT</h2>
+                <hr/>
+            </div>
+            <div class="signup-item item2">
+                <label for="uname">USERNAME</label>
+                <input id="uname" placeholder="Username" type="text">
+                <label for="mail">EMAIL</label>
+                <input id="mail" placeholder="Email" type="email">
+                <label for="pwds">PASSWORD</label>
+                <input id="pwds" placeholder="Password" type="password">
+                <input type="submit" value="SIGN UP" id="signUp">
+            </div>
+
+        </div>
+
+        <!-- Chức năng đăng ký tài khoản với Firebase -->
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"; 
+            import { getDatabase,set,ref} from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"; 
+            import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+            const firebaseConfig = { 
+                apiKey: "AIzaSyDVNKxEeXlhV1ZPlE61DYi82Y7DfnXMEXc", 
+                authDomain: "authentication-web-9737c.firebaseapp.com", 
+                databaseURL: "https://authentication-web-9737c-default-rtdb.firebaseio.com", 
+                projectId: "authentication-web-9737c",
+                storageBucket: "authentication-web-9737c.appspot.com", 
+                messagingSenderId: "948949383038", 
+                appId: "1:948949383038:web:e4030ff68793b80ab9252f" }; 
+                const app = initializeApp(firebaseConfig); 
+                const database=getDatabase(app); 
+                const auth = getAuth();
+            signUp.addEventListener('click',(e) => { 
+                var username=document.getElementById("uname").value;
+                var email=document.getElementById("mail").value; 
+                var password=document.getElementById("pwds").value; 
+                createUserWithEmailAndPassword(auth, email, password) .then((userCredential) => { 
+                    const user = userCredential.user;
+    
+                    set(ref(database, 'users/' + user.uid),{
+                        username: username,
+                        email:email
+                    })
+            alert("User created!") }) 
+            .catch((error) => { 
+                const errorCode = error.code; 
+                const errorMessage = error.message; 
+                alert(errorMessage); }); });
+        </script>
+    </main>
+    
+    <footer id="footer"></footer>
+
+    <!-- Script tái sử dụng code -->
+    <script>
+        $(function(){
+            $('#footer').load('/src/footer.html');
+        })
+    </script>
+</body>
+</html>

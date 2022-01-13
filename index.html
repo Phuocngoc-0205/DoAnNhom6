@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Googl Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@100&family=Trirong:wght@300;400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Philosopher&family=Poppins:wght@200;300;400&family=Roboto:wght@100&family=Trirong:wght@300;400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Trirong:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+    </style>
+
+    <!-- Thư viện dùng cho slick slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- <link rel="stylesheet" href="/css/nav.css"> -->
+
+    <!-- File css -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Thư viện của Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+
+    <!-- <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>Document</title>
+
+    <!-- Script tái sử dụng code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    <!-- <header>
+        <a href="#" class="logo">FUKI ACCESSORIES</a>
+        <div class="nav-bar">
+            <div><a href="#">HOME</a></div>
+            <div><a href="#">CASE</a>
+                <div class="dropdown">
+                    <a href="#">IPHONE CASE</a>
+                    <a href="#">AIRPODS CASE</a>
+                    <a href="#">IPAD CASE</a>
+                    <a href="#">MACBOOK CASE</a>
+                </div>
+            </div>
+            <div><a href="#">ACCESSORIES</a>
+                <div class="dropdown">
+                    <a href="#">CABLES</a>
+                    <a href="#">CHARGER</a>
+                    <a href="#">POWER BANK</a>
+                    <a href="#">OTHERS</a>
+                </div>
+            </div>
+            <div><a href="#">COLLECTION</a>
+                <div class="dropdown">
+                    <a href="#">NEW ARRIVALS</a>
+                    <a href="#">BEST SELLER</a>
+                    <a href="#">SALE OFF</a>
+                </div>
+            </div>
+            <div><a href="#">ABOUT US</a></div>
+        </div>
+        <div class="icons">
+            <div id="cart-btn" class="fa fa-shopping-bag">
+                </a>
+            </div>
+            <div id="search-btn" class="fa fa-search"></div>
+            <div id="bars-btn" class="fa fa-bars"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search bars....">
+            <label for="search-box" class="fa fa-search"></label>
+        </div>
+        <script>
+            let navbar = document.querySelector('.nav-bar');
+            document.querySelector('#bars-btn').onclick = () => {
+                navbar.classList.toggle('active')
+            }
+            let searchForm = document.querySelector('.search-form');
+            document.querySelector('#search-btn').onclick = () => {
+                    searchForm.classList.toggle('active')
+                }
+                // document.querySelector('#cart-btn').onclick = () => {
+                //     location.href = "iphonecase.html"
+                // }
+        </script>
+    </header> -->
+    <header id="header"></header>
+    <main>
+        <!-- Banner đầu trang -->
+        <div class="banner">
+            <button class="btn" onclick="Shopnow()">SHOP NOW</button>
+        </div>
+
+        <!-- Giới thiệu -->
+        <div class="container1" style="background-color: #FDF5E9;">
+            <div class="container1-item item1">
+                <h5>Xin chào, hi, ola <br/> We're Fuki Accessories</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, nam ex, facere consectetur, a sed asperiores aliquid ut esse illum voluptate omnis ratione. Eaque optio minima quibusdam aliquam tempora in.<br/> We're here. Won't you
+                    join us</p>
+                <button type="button" value="OUR STORY" onclick="Ourstory()">OUR STORY</button>
+            </div>
+            <div class="container1-item item2">
+                <img src="/img/fuki.png">
+            </div>
+            <div class="container1-item item3">
+                <div class="item3_1">
+                    <img src="/img/pop.jpg">
+                </div>
+                <div class="item3_2">
+                    <img src="/img/collection.png">
+                </div>
+            </div>
+            <div class="container1-item item4">
+                <h5>Portable Phone, We Are Here !</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maiores dolore voluptas officiis. Pariatur, sunt inventore. Dolorem iusto consectetur nisi dicta nam porro soluta enim!</p>
+            </div>
+        </div>
+
+        <!-- Best Seller -->
+        <p style="text-align: center; padding: 10px; font-size: 30px; font-family: 'Trirong', sans-serif;">Best Seller</p>
+        <div class="image-slider">
+            <div class="image-item">
+                <div class="image">
+                    <img src="/img/case.jpg" />
+                </div>
+                <div class="image-title">
+                    <h6 style="font-family: 'Roboto';">RING HOLDERS</h6>
+                    <h5>250.000</h5>
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="/img/bestseller.jpg" />
+                </div>
+                <div class="image-title">
+                    <h6 style="font-family: 'Roboto';">AIRPODS CASE</h6>
+                    <h5>350.000</h5>
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="/img/bestseller1.jpg" />
+                </div>
+                <div class="image-title">
+                    <h6 style="font-family: 'Roboto';">CUTE POPSOCKET</h6>
+                    <h5>120.000</h5>
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="/img/bestseller2.jpg" />
+                </div>
+                <div class="image-title">
+                    <h6 style="font-family: 'Roboto';">CHOCOLATE CASE</h6>
+                    <h5>225.000</h5>
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="image">
+                    <img src="/img/pop.jpg" />
+                </div>
+                <div class="image-title">
+                    <h6 style="font-family: 'Roboto';">CIRCLE POPSOCKETS</h6>
+                    <h5>350.000</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Collection -->
+        <div style="background-color: #F3EADD; margin-top: 10px;">
+            <p style="text-align: center; padding: 10px; font-size: 30px; font-family: 'Trirong', sans-serif;">Collection</p>
+            <div class="collection">
+                <div class="collection-item1">
+                    <h3><a style="color: black;" href="/src/newarrivals.html">NEW <br/> IN</a></h3>
+                    <img src="/img/newin.png" />
+                </div>
+                <div class="collection-item2">
+                    <h3><a style="color: black;" href="/src/airpodscase.html">AIRPOD</a></h3>
+                    <img src="/img/airpods.jpg" />
+                </div>
+                <div class="collection-item3">
+                    <h3><a style="color: black;" href="/src/bestseller.html">BEST <br/> SELLER</a></h3>
+                    <img src="/img/pinkairpods.jpg" /></div>
+                <div class="collection-item4">
+                    <img src="/img/popsocket.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div style="background-color: #EEE3D9; padding: 10px;">
+            <div style="color: black; font-family: 'Times New Roman', Times, serif; margin-left: 29px;margin-top: 14px; font-size: 36px;"><b>Newsletter</b></div>
+            <div style="color: black; font-family: 'Open Sans', sans-serif;; text-align: center; margin-top: 10px; font-size: 19px;">JOIN WITH</div>
+            <div style="color: black; font-family: 'Times New Roman', Times, serif; text-align: center; margin-top: 5px; font-size: 25px;"><b>FUKI</b></div>
+            <div style="color: black; font-family: 'Roboto';text-align: center; margin-top: 20px; font-size: 18px;">To get exclusive online offers and our latest products news</div>
+            <div style="text-align: center; margin-top: 15px; padding: 20px;">
+                <input type="text" style="height: 40px; width: 250px; border: none; color: black; text-align: center;" value="Enter your email">
+                <button type="button" style="height: 40px; width: 120px; background-color: black; color: white; border: none; margin-left: -10px; font-size: 12px; font-family: 'Roboto';">JOIN</button>
+            </div>
+        </div>
+    </main>
+    <!-- <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4 style="font-size: 30px;">FUKI ACCESSORIES</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4 style="font-size: 24px;">CONTACT</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Based in Sai Gon</a></li>
+                        <li><a href="#"><i class="far fa-clock"></i> 9AM - 10PM</a></li>
+                        <li><a href="#"><i class="fas fa-phone-alt"></i> 090 888 9999</a></li>
+                        <li><a href="#"><i class="far fa-envelope"></i> fukiaccessroies@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 style="font-size: 24px;">FOLLOW US</h4>
+
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <footer id="footer"></footer>
+
+    <!-- Thư viện script dùng cho slick slider -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/app.js"></script>
+
+    <script>
+        function Shopnow(){
+            location.href="/src/iphonecase.html";
+        }
+
+        function Ourstory(){
+            location.href="/src/aboutus.html";
+        }
+    </script>
+    <!-- Script tái sử dụng code -->
+    <script>
+        $(function(){
+            $('#header').load('/src/nav.html');
+        })
+        $(function(){
+            $('#footer').load('/src/footer.html');
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/css/shipinfo.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <h1 style="text-align: center; margin-top: 80px;">SHIPPING INFORMATION</h1>
+        <div class="container">
+            <div class="container-item1">
+                <div class="fullname">
+                    <label for="fname">FULL NAME</label>
+                    <input id="fname" placeholder="type your name">
+                </div>
+                <div class="mail">
+                    <label for="mail">EMAIL</label>
+                    <input id="mail" placeholder="type your name">
+                </div>
+                <div class="phonenumber">
+                    <label for="phonenum">PHONE NUMBER</label>
+                    <input id="phonenum" placeholder="type your name">
+                </div>
+                <div class="address">
+                    <label for="addr">ADDRESS</label>
+                    <input id="addr" placeholder="type your name">
+                </div>
+                <div class="note">
+                    <label for="note">NOTE</label>
+                    <input id="note" placeholder="type your name">
+                </div>
+            </div>
+            <div class="container-item2">
+                <div class="orderdetails">ORDER DETAILS<hr></div>
+                <div class="subtotal">Sub total:</div>
+                <div class="subtotalnum">$50.00</div>
+                <div class="shipcost">Shipping cost:</div>
+                <div class="shipcostnum">Free</div>
+                <div class="promocode">Add promocode</div>
+                <div class="promocodenum">BF14</div>
+                <div class="total"><hr>Total</div>
+                <div class="totalnum"><hr>$50.00</div>
+                <div class="checkout">
+                    <button type="button"><a href="/src/shippingconfirm.html">CHECK OUT</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <h3>SUMARY</h3>
+            <div class="product-sumary" id="cart">
+                <!-- <div class="sumary">
+                    <div class="sumaryimage">
+                    <img src="https://24hstore.vn/upload_images/images/op_13_pro_4.jpeg"
+                         alt="" />
+                    </div>
+                    <div class="sumarydetails">
+                    <h6>CHOLOCATE CASE</h6>
+                    <span>1 item</span>
+                    </div>
+                    <div class="sumaryname">
+                    <span>Iphone 13 pro max</span>
+                    </div>
+                    <div class="sumaryprice">
+                    <span>200.000 đ</span>
+                    </div>
+                </div> -->
+
+        </div>
+        </div>
+    </main>
+
+
+    <script>
+        var cartInfo = localStorage.getItem('cart');
+        // put into array
+        var itemArr = JSON.parse(cartInfo);
+        console.log(itemArr)
+        // create div for each product
+        itemArr.forEach(element => {
+            var model = `
+                <div class="sumary">
+                    <div class="sumaryimage">
+                    <img src="${element.productThumb}"
+                         alt="" />
+                    </div>
+                    <div class="sumarydetails">
+                    <h6>${element.productName}</h6>
+                    <span>${element.amount} item</span>
+                    </div>
+                    <div class="sumaryname">
+                    <span>Iphone 13 pro max</span>
+                    </div>
+                    <div class="sumaryprice">
+                    <span>${element.productPrice} đ</span>
+                    </div>
+                </div>
+            `
+            cart = document.querySelector("#cart");
+            cart.innerHTML += model;
+        });
+    </script>
+
+<script>
+    $(function(){
+        $('#header').load('nav.html');
+    })
+</script>
+</body>
+</html>
