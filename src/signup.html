@@ -76,7 +76,7 @@
             <p>Enter your email and password</p>
             <input type="email" id="email" placeholder="Email" required>
             <input type="password" id="pwd" placeholder="Password" required>
-            <input class="signin" type="submit" value="LOG IN" id="Login" onclick="Login()">
+            <input class="signin" type="submit" value="LOG IN" id="Login">
             <div>A new customer? <a href="/src/signup.html" id="signup-btn">Create account</a></div>
             <div>Forgot password? <a href="#">Password recovery</a></div>
         </div>
@@ -93,6 +93,18 @@
             document.querySelector('#accounts-btn').onclick = () => {
                 signinform.classList.toggle('active')
             }
+            
+            document.querySelector('#cart-btn').onclick = () => {
+                location.href = "/src/shoppingcart.html"
+            }
+            // function Login(){
+            //     var email=document.getElementById("email").value;
+            //     var password=document.getElementById("pwd").value;
+            //     if(email === "" || password === ""){
+            //         alert("Failed!");
+            //     }else
+            //     alert ("User loged in!")
+            // }
         </script>
         <script type="module">
             import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"; 
@@ -133,6 +145,7 @@
             });
         </script>
         <script>
+            //Load dữ liệu từ file json
             var xmlHttp = new XMLHttpRequest();
             var url = "/json/searchdb.json";
             let myArr;
@@ -143,6 +156,7 @@
             }
             xmlHttp.open("GET", url, true);
             xmlHttp.send();
+
             //Công cụ tìm kiếm:
             function selectElement(selector){
             return document.querySelector(selector);
@@ -163,12 +177,19 @@
                 if(myArr[i].productName.toLocaleLowerCase().includes(search.toLocaleLowerCase())
     
                 ){
-                    selectElement('.search-results').innerHTML += '<div class="search-results-item"><img src="'+myArr[i].productThumb+'""><div class="search-item"><h3>'+myArr[i].productName+'</h3><p>'+myArr[i].productPrice+'</p></div></div>';
+                    selectElement('.search-results').innerHTML += '<div class="search-results-item" onclick=detail(' + i + ')><img src="'+myArr[i].productThumb+'""><div class="search-item"><h3>'+myArr[i].productName+'</h3><p>'+myArr[i].productPrice+'</p></div></div>';
                 }
                 }
             }
             }
-        selectElement('.searchbar').addEventListener('keyup',getResults);
+            selectElement('.searchbar').addEventListener('keyup',getResults);
+
+            //Sự kiện bấm vào sản phẩm ra chi tiết sp
+            function detail(i) {
+            var sp = myArr[i];
+            localStorage.setItem("data", JSON.stringify(sp));
+            location.href = "/src/chitietsp.html";
+            }
         </script>
     </header>
     <main>
