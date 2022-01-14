@@ -71,7 +71,7 @@ nav ul li {
 #image{
     height: 80vh;
     object-fit: contain;
-    margin-top: 20px;
+    padding: 40px 0;
 }
 .btn {
     display: inline-block;
@@ -167,7 +167,19 @@ h4 {
     margin-left: 40px;
     margin-right: 40px;
 }
-
+@media only screen and (max-width:820px){
+    .btn{
+        width: 200px;
+    }
+    #image{
+        height: 40vh;
+    }
+}
+@media only screen and (max-width:650px){
+    .col-2{
+        flex-basis: 100%;
+    }
+}
 /*-----media query for less than 600 screen size-----*/
 @media only screen and (max-width:600px) {
     .row {

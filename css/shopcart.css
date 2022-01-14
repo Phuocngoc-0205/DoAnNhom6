@@ -202,7 +202,7 @@
 @media(max-width: 600px) {
     .cart-product{
         margin-top: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 40px;
     }
     .name-image{
         display: flex;

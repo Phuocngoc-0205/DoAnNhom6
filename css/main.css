@@ -408,7 +408,7 @@
     background-color: black;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 865px) {
     .collection {
         grid-template-columns: 150px 150px;
         grid-template-rows: 500px 250px 500px;
